@@ -1,0 +1,52 @@
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem 5%;
+    align-items: center;
+    background-color: #333;
+    color: rgb(220, 220, 220);
+
+}
+.nav-links{
+    display: flex;
+    gap: 1rem;
+}
+.nav-links li{
+    position: relative;
+}
+.nav-action{
+    display: flex;
+    gap: 1.5rem;
+    align-items: center;
+}
+
+
+
+.dropdown-menu {
+    position: absolute; /* Takes it out of the Flexbox flow */
+    top: 100%;          /* Starts right below the text */
+    left: 0;            /* Aligns to the left edge of the "Courses" word */
+    background-color: #333; /* Matches your dark theme better */
+    min-width: 220px;
+    padding: 10px 0;
+    margin: 0;
+    list-style: none;
+    box-shadow: 0px 4px 12px rgba(0,0,0,0.5);
+    z-index: 1000;      /* Makes sure it stays on top of everything else */
+    border-radius: 4px;
+}
+
+/* Styling the links inside the dropdown */
+.dropdown-menu li a {
+    color: rgb(220, 220, 220);
+    padding: 12px 20px;
+    display: block;
+    text-decoration: none;
+    font-size: 0.9rem;
+}
+
+.dropdown-menu li a:hover {
+    background-color: #444;
+    color: #d4af37; /* Gold highlight for your music school */
+    
+}
