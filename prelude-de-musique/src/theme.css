@@ -9,7 +9,7 @@
 }
 .nav-links{
     display: flex;
-    gap: 1rem;
+    gap: 2rem;
 }
 .nav-links li{
     position: relative;
@@ -49,4 +49,9 @@
     background-color: #444;
     color: #d4af37; /* Gold highlight for your music school */
     
+}
+
+.enroll-dropdown {
+    left: auto;   /* Remove the default left alignment */
+    right: 0;     /* Align the right edge of the menu to the "Enroll" text */
 }
