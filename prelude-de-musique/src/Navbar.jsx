@@ -4,18 +4,23 @@ function Navbar (){
 
     return(
  <nav>
-
-    <span>
+    <div>
+        {/*Brand Logo*/}
         <a href="">
         <img src="" alt="" />
         </a>
-    </span>
+    </div>
     
-    <span>
-    <a href="">Home</a>
-    <a href="">Teachers</a>
-    <a href=""></a>
-    </span>
+    <ul>
+        <li><a href="">About</a></li>
+        <li><a href="">Coursing</a></li>
+        <li><a href="">Pricing</a></li>
+    </ul>
+    
+    <div>
+        <a href="">Enroll Now</a>
+        <a href="">Contact Us</a>
+    </div>
     
 
 </nav>
