@@ -53,7 +53,7 @@ const [activeMenu, setActiveMenu] = useState(null);
              <a href="">Enroll Now ▾</a>
             
         {activeMenu === 'enroll' && (
-            <ul className='dropdown-menu enroll-dropdown'>
+            <ul className=' dropdown-menu'>
                 <li><a href="">Piano Branch</a></li>
                 <li><a href="">Voice Branch</a></li>
                 <li><a href="">Viola Branch</a></li>

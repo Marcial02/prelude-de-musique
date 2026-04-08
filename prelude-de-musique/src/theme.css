@@ -1,18 +1,27 @@
+body {
+    padding: 0;
+    margin: 0;
+}
 .navbar{
     display: flex;
     justify-content: space-between;
-    padding: 1rem 5%;
     align-items: center;
     background-color: #333;
+    padding: 0;
     
 }
- .navbar a{
+ .navbar a, .nav-action div{
 color: rgb(220, 220, 220);
+display: block; 
+    padding: 1rem 1.5rem; /* Dito mo kontrolado ang laki ng "box" */
+    color: rgb(220, 220, 220);
+    text-decoration: none;
+    transition: all 0.3s ease;
 
 }
 .nav-links{
     display: flex;
-    gap: 2rem;
+
     list-style: none;
 }
 .nav-links li{
@@ -24,18 +33,22 @@ color: rgb(220, 220, 220);
     align-items: center;
 }
 
+.nav-links li, .nav-action > div {
 
+position: relative;
+
+}
 
 .dropdown-menu {
     position: absolute; /* Takes it out of the Flexbox flow */
     top: 100%;          /* Starts right below the text */
-    left: 0;            /* Aligns to the left edge of the "Courses" word */
+    /* left: 0;            Aligns to the left edge of the "Courses" word */
     background-color: #333; /* Matches your dark theme better */
     min-width: 220px;
     padding: 10px 0;
     margin: 0;
     list-style: none;
-    box-shadow: 0px 4px 12px rgba(0,0,0,0.5);
+    /* box-shadow: 0px 4px 12px rgba(0,0,0,0.5); */
     z-index: 1000;      /* Makes sure it stays on top of everything else */
     border-radius: 4px;
 }
@@ -49,13 +62,8 @@ color: rgb(220, 220, 220);
     font-size: 0.9rem;
 }
 
-.dropdown-menu li a:hover {
+.dropdown-menu li a:hover, .nav-links li:hover {
     background-color: #444;
     color: #d4af37; /* Gold highlight for your music school */
     
-}
-
-.enroll-dropdown {
-    left: auto;   /* Remove the default left alignment */
-    right: 0;     /* Align the right edge of the menu to the "Enroll" text */
 }
