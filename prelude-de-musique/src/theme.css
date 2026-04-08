@@ -4,12 +4,16 @@
     padding: 1rem 5%;
     align-items: center;
     background-color: #333;
-    color: rgb(220, 220, 220);
+    
+}
+ .navbar a{
+color: rgb(220, 220, 220);
 
 }
 .nav-links{
     display: flex;
     gap: 2rem;
+    list-style: none;
 }
 .nav-links li{
     position: relative;
