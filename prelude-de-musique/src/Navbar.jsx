@@ -1,6 +1,6 @@
 import { useState } from 'react'
-import './theme.css'
-import './mobile.css'
+import '.css/navbar.css'
+import '.css/navbar-mobile.css'
 import PDEMLogo from './assets/PDEM Logo.jpg'
 
 function Navbar (){
