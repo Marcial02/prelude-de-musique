@@ -1,9 +1,14 @@
 import { useState } from 'react'
 import './theme.css'
+import './mobile.css'
 import PDEMLogo from './assets/PDEM Logo.jpg'
 
 function Navbar (){
 const [activeMenu, setActiveMenu] = useState(null);
+const [isOpen, setIsOpen] = useState(false);
+const toggleMenu = () => {
+        setIsOpen(!isOpen);
+    };
     return(
  <nav className='navbar'>
     <div>
@@ -13,7 +18,14 @@ const [activeMenu, setActiveMenu] = useState(null);
         </a>
     </div>
     
-    <ul className='nav-links'>
+    <div className="hamburger" onClick={toggleMenu}>
+        <div className="bar"></div>
+        <div className="bar"></div>
+        <div className="bar"></div>
+    </div>
+
+    <div className={`nav-menu ${isOpen ? "is-active" : ""}`}>
+ <ul className='nav-links'>
         <li><a href="">About</a></li>
         
         <li 
@@ -40,12 +52,10 @@ const [activeMenu, setActiveMenu] = useState(null);
         )}
         </li>
 
-
         <li><a href="">Pricing</a></li>
     </ul>
 
-    
-    <div className='nav-action'>
+     <div className='nav-action'>
         <div
         onMouseEnter={() => setActiveMenu ('enroll')}
         onMouseLeave={() => setActiveMenu (null)}
@@ -71,6 +81,12 @@ const [activeMenu, setActiveMenu] = useState(null);
        
         <a href="">Contact Us</a>
     </div>
+    
+    </div>
+   
+
+    
+   
     
 
 </nav>

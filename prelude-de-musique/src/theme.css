@@ -1,3 +1,6 @@
+* {
+    box-sizing: border-box;
+}
 body {
     padding: 0;
     margin: 0;
@@ -19,10 +22,17 @@ display: block;
     transition: all 0.3s ease;
 
 }
+.nav-menu {
+    display: flex;
+    flex: 1; /* This tells the menu to take up the available space */
+    justify-content: space-between; /* This pushes links to center/left and actions to the right */
+    align-items: center;
+}
 .nav-links{
     display: flex;
-
     list-style: none;
+    margin: 0 auto;
+    padding: 0;
 }
 .nav-links li{
     position: relative;
@@ -67,3 +77,4 @@ position: relative;
     color: #d4af37; /* Gold highlight for your music school */
     
 }
+
