@@ -55,8 +55,8 @@ const toggleMenu = () => {
         <li><a href="">Pricing</a></li>
     </ul>
 
-     <div className='nav-action'>
-        <div
+     <ul className='nav-links'>
+        <li
         onMouseEnter={() => setActiveMenu ('enroll')}
         onMouseLeave={() => setActiveMenu (null)}
         >
@@ -77,10 +77,11 @@ const toggleMenu = () => {
                 
             </ul>
         )}
-        </div>
-       
+        </li>
+       <li>
         <a href="">Contact Us</a>
-    </div>
+        </li>
+    </ul>
     
     </div>
    
