@@ -1,4 +1,3 @@
-import './theme.css'
 import Navbar from './Navbar.jsx'
 function Home (){
 
