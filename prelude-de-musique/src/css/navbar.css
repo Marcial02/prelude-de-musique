@@ -1,80 +1,76 @@
 * {
     box-sizing: border-box;
 }
+
 body {
     padding: 0;
     margin: 0;
 }
-.navbar{
+
+.navbar {
     display: flex;
     justify-content: space-between;
     align-items: center;
     background-color: #333;
-    padding: 0;
-    
+    padding: 0 2rem;
+    height: 80px;
+    width: 100%;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
 }
- .navbar a, .nav-action div{
-color: rgb(220, 220, 220);
-display: block; 
-    padding: 1rem 1.5rem; /* Dito mo kontrolado ang laki ng "box" */
-    color: rgb(220, 220, 220);
-    text-decoration: none;
-    transition: all 0.3s ease;
 
+.brand-logo {
+    flex: 1; /* Left 1/3 */
+    display: flex;
+    justify-content: flex-start;
 }
+
 .nav-menu {
     display: flex;
-    flex: 1; /* This tells the menu to take up the available space */
-    justify-content: space-between; /* This pushes links to center/left and actions to the right */
+    flex: 2; /* Takes the rest of the space for Center and Right */
+    justify-content: space-between;
     align-items: center;
 }
-.nav-links{
+
+.nav-links-center {
+    flex: 1;
     display: flex;
+    justify-content: center; /* True Center */
     list-style: none;
-    margin: 0 auto;
-    padding: 0;
-}
-.nav-links li{
-    position: relative;
-}
-.nav-action{
-    display: flex;
     gap: 1.5rem;
-    align-items: center;
 }
 
-.nav-links li, .nav-action > div {
-
-position: relative;
-
-}
-
-.dropdown-menu {
-    position: absolute; /* Takes it out of the Flexbox flow */
-    top: 100%;          /* Starts right below the text */
-    /* left: 0;            Aligns to the left edge of the "Courses" word */
-    background-color: #333; /* Matches your dark theme better */
-    min-width: 220px;
-    padding: 10px 0;
-    margin: 0;
+.nav-links-right {
+    display: flex;
+    justify-content: flex-end; /* Right side */
     list-style: none;
-    /* box-shadow: 0px 4px 12px rgba(0,0,0,0.5); */
-    z-index: 1000;      /* Makes sure it stays on top of everything else */
-    border-radius: 4px;
+    gap: 1rem;
 }
 
-/* Styling the links inside the dropdown */
-.dropdown-menu li a {
+.navbar a {
     color: rgb(220, 220, 220);
-    padding: 12px 20px;
-    display: block;
     text-decoration: none;
-    font-size: 0.9rem;
+    padding: 0.5rem 1rem;
+    transition: 0.3s;
 }
 
-.dropdown-menu li a:hover, .nav-links li:hover {
-    background-color: #444;
-    color: #d4af37; /* Gold highlight for your music school */
-    
+.navbar a:hover {
+    color: #d4af37;
 }
 
+/* Dropdown Basic Styling */
+.dropdown-menu {
+    position: absolute;
+    background-color: #333;
+    min-width: 180px;
+    list-style: none;
+    padding: 10px 0;
+    border-radius: 4px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.3);
+}
+
+.dropdown-menu li a {
+    padding: 10px 20px;
+    display: block;
+}

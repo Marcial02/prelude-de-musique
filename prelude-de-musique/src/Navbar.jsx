@@ -1,98 +1,76 @@
-import { useState } from 'react'
-import './css/navbar.css'
-import './css/navbar-mobile.css'
-import PDEMLogo from './assets/PDEM Logo.jpg'
+import { useState } from 'react';
+import './css/navbar.css';
+import './css/navbar-mobile.css';
+import PDEMLogo from './assets/PDEM Logo.jpg';
 
-function Navbar (){
-const [activeMenu, setActiveMenu] = useState(null);
-const [isOpen, setIsOpen] = useState(false);
-const toggleMenu = () => {
-        setIsOpen(!isOpen);
-    };
-    return(
- <nav className='navbar'>
-    <div>
-        {/*Brand Logo*/}
-        <a href="">
-        <img src={PDEMLogo} alt="" width={200} />
+function Navbar() {
+  const [activeMenu, setActiveMenu] = useState(null);
+  const [isOpen, setIsOpen] = useState(false);
+
+  const toggleMenu = () => {
+    setIsOpen(!isOpen);
+  };
+
+  return (
+    <nav className='navbar'>
+      {/* Group 1: Logo */}
+      <div className='brand-logo'>
+        <a href="/">
+          <img src={PDEMLogo} alt="PDEM Logo" width={150} />
         </a>
-    </div>
-    
-    <div className="hamburger" onClick={toggleMenu}>
-        <div className="bar"></div>
-        <div className="bar"></div>
-        <div className="bar"></div>
-    </div>
+      </div>
 
-    <div className={`nav-menu ${isOpen ? "is-active" : ""}`}>
- <ul className='nav-links'>
-        <li><a href="">About</a></li>
+      {/* Hamburger Button (Mobile only) */}
+      <div className={`hamburger ${isOpen ? "toggle" : ""}`} onClick={toggleMenu}>
+        <div className="bar"></div>
+        <div className="bar"></div>
+           <div className="bar"></div>
         
-        <li 
-         onMouseEnter={() => setActiveMenu ('courses')}
-         onMouseLeave={() => setActiveMenu (null)}
-        >
-            <a href=""   > Courses Offered ▾</a>
+      </div>
 
-        {activeMenu === 'courses' && (
-            <ul className='dropdown-menu'>
+      {/* Group 2 & 3: Navigation Menu */}
+      <div className={`nav-menu ${isOpen ? "is-active" : ""}`}>
+        
+        {/* Center Links */}
+        <ul className='nav-links-center'>
+          <li><a href="#about">About</a></li>
+          <li 
+            onMouseEnter={() => setActiveMenu('courses')} 
+            onMouseLeave={() => setActiveMenu(null)}
+          >
+            <a href="#courses">Courses Offered ▾</a>
+            {activeMenu === 'courses' && (
+              <ul className='dropdown-menu'>
                 <li><a href="">Piano Lesson</a></li>
                 <li><a href="">Voice Lesson</a></li>
-                <li><a href="">Viola Lesson</a></li>
                 <li><a href="">Guitar Lesson</a></li>
-                <li><a href="">Ukelele Lesson</a></li>
-                <li><a href="">Flute Lesson</a></li>
-                <li><a href="">Saxophone Lesson</a></li>
-                <li><a href="">Recorder Lesson</a></li>
                 <li><a href="">Drum Lesson</a></li>
-                <li><a href="">Trumphet Lesson</a></li>
-            </ul>
-            
+              </ul>
+            )}
+          </li>
+          <li><a href="#pricing">Pricing</a></li>
+        </ul>
 
-        )}
-        </li>
+        {/* Right Links */}
+        <ul className='nav-links-right'>
+          <li 
+            onMouseEnter={() => setActiveMenu('enroll')} 
+            onMouseLeave={() => setActiveMenu(null)}
+          >
+            <a href="#enroll">Enroll Now ▾</a>
+            {activeMenu === 'enroll' && (
+              <ul className='dropdown-menu'>
+                <li><a href="">Manila Branch</a></li>
+                <li><a href="">Online Branch</a></li>
+              </ul>
+            )}
+          </li>
+          <li><a href="#contact">Contact Us</a></li>
+        </ul>
 
-        <li><a href="">Pricing</a></li>
-    </ul>
-
-     <ul className='nav-links'>
-        <li
-        onMouseEnter={() => setActiveMenu ('enroll')}
-        onMouseLeave={() => setActiveMenu (null)}
-        >
-             <a href="">Enroll Now ▾</a>
-            
-        {activeMenu === 'enroll' && (
-            <ul className=' dropdown-menu'>
-                <li><a href="">Piano Branch</a></li>
-                <li><a href="">Voice Branch</a></li>
-                <li><a href="">Viola Branch</a></li>
-                <li><a href="">Guitar Branch</a></li>
-                <li><a href="">Ukelele Branch</a></li>
-                <li><a href="">Flute Branch</a></li>
-                <li><a href="">Saxophone Branch</a></li>
-                <li><a href="">Recorder Branch</a></li>
-                <li><a href="">Drum Branch</a></li>
-                <li><a href="">Trumphet Branch</a></li>
-                
-            </ul>
-        )}
-        </li>
-       <li>
-        <a href="">Contact Us</a>
-        </li>
-    </ul>
-    
-    </div>
-   
-
-    
-   
-    
-
-</nav>
-
-    )
-   
+      </div>
+    </nav>
+  );
 }
-export default Navbar
+
+export default Navbar;

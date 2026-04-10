@@ -1,89 +1,50 @@
-.hamburger {
-    display: none; /* Hidden on big screens */
-    flex-direction: column;
-    cursor: pointer;
-    gap: 5px; /* Space between the three divs */
-    padding: 1rem;
-}
-
-.bar {
-    width: 25px;
-    height: 3px;
-    background-color: rgb(220, 220, 220);
-    border-radius: 2px;
-    transition: 0.3s ease; /* This makes the "X" animation smooth later */
-}
-
 @media (max-width: 768px) {
     .hamburger {
-        display: flex; /* Show the hamburger now! */
+        display: flex;
+        flex-direction: column;
+        gap: 5px;
+        cursor: pointer;
+        z-index: 1100;
+    }
+
+    .bar {
+        width: 25px;
+        height: 3px;
+        background-color: white;
+        transition: 0.3s;
     }
 
     .nav-menu {
-        position: absolute;
-        top: 70px; /* Adjust this to match your navbar's height */
-        right: -100%; /* Hide it off-screen to the left */
-        width: 50%;
-       height: auto;          /* Change from fixed 100vh to auto to allow expansion */
-        min-height: 100vh;    /* Ensure it covers at least the full screen height even if links are few */
-        padding-bottom: 30px;  /* Add bottom padding so the last item isn't touching the edge */
-        overflow-y: auto;/* Enable scrolling if the menu becomes longer than the screen */
-        background-color: #333;
+        position: fixed;
+        top: 0;
+        right: -100%; /* Hidden */
+        width: 70%;
+        height: 100vh;
+        background-color: #222;
         flex-direction: column;
-        align-items: center;
-        transition: 0.4s; /* Sliding animation speed */
-        z-index: 10;
-        display: block;
+        justify-content: center;
+        transition: 0.4s ease-in-out;
     }
 
-    
-
-    /* When the 'is-active' class is added via React, slide it in */
     .nav-menu.is-active {
-        right: 0;
+        right: 0; /* Slide in */
     }
 
-    /* Stack the links vertically */
-    .nav-links {
+    .nav-links-center, .nav-links-right {
         flex-direction: column;
-        width: 100%;
-        padding: 2rem 0;
-    }
-
-    .nav-action {
-        flex-direction: column;
-        width: 100%;
-        gap: 0;
-    }
-
-    .nav-links li, .nav-action div {
         width: 100%;
         text-align: center;
-    }
-     /* 3. Ensure the parent list item takes full width */
-    .nav-links li {
-        position: static; 
-        width: 100%;
-    }
-    .dropdown-menu {
-        position: relative; 
-        top: 0;
-        left: 0;
-        width: 100%;
-        min-width: unset; /* Reset desktop minimum width */
-        background-color: #2c2c2c; /* Slightly darker to distinguish from main menu */
         padding: 0;
-        display: block;
-        box-shadow: none; /* Shadow isn't needed for non-floating menus */
     }
 
-    /* 2. Add indentation to sub-items so they look nested */
-    .dropdown-menu li a {
-        padding-left: 3rem; 
-        border-bottom: 1px solid #444;
+    .dropdown-menu {
+        position: static; /* Push content down instead of floating */
+        width: 100%;
+        background-color: #2c2c2c;
     }
 
+    /* Animation for Hamburger to X */
+    .hamburger.toggle .bar:nth-child(1) { transform: translateY(8px) rotate(45deg); }
+    .hamburger.toggle .bar:nth-child(2) { opacity: 0; }
+    .hamburger.toggle .bar:nth-child(3) { transform: translateY(-8px) rotate(-45deg); }
 }
-
-
-   
