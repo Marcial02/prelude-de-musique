@@ -1,4 +1,5 @@
 import { useState } from 'react';
+import { useEffect } from 'react';
 import './css/navbar.css';
 import './css/navbar-mobile.css';
 import PDEMLogo from './assets/PDEM Logo.jpg';
@@ -6,13 +7,31 @@ import PDEMLogo from './assets/PDEM Logo.jpg';
 function Navbar() {
   const [activeMenu, setActiveMenu] = useState(null);
   const [isOpen, setIsOpen] = useState(false);
+  const [scrolled, setScrolled] = useState(false); // Moved to top level
 
+  // 1. Logic for scroll effect (Moved to top level)
+  useEffect(() => {
+    const handleScroll = () => {
+      if (window.scrollY > 50) {
+        setScrolled(true);
+      } else {
+        setScrolled(false);
+      }
+    };
+
+    window.addEventListener('scroll', handleScroll);
+    return () => window.removeEventListener('scroll', handleScroll);
+  }, []);
+
+  // 2. Logic for mobile menu toggle
   const toggleMenu = () => {
     setIsOpen(!isOpen);
   };
 
+  
+
   return (
-   <nav className='nav-container'>
+   <nav className={`nav-container ${scrolled ? 'scrolled' : ''}`}>
     <div className='nav-logo'>
     <a href=''>
       <img src={PDEMLogo} alt="prelude de musique logo picture" width={200} />
@@ -25,7 +44,7 @@ function Navbar() {
            <div className="bar"></div>
       </div>
 
-    <div className={`nav-div nav-menu ${isOpen ? "is-active" : ""}`}> 
+    <div className={`nav-div nav-menu ${isOpen ? "is-active" : ""} ${scrolled ? 'scrolled' : ''}`}> 
     <ul className=''>
       <li><a href="">About</a></li>
       <li
