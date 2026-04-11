@@ -2,9 +2,12 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 0 10px;
     background-color: #222;
-    position: sticky;
+    position: fixed;
+    z-index: 1;
+    width: 100%;
+    box-sizing: border-box;
+    padding: 0 20px 0 20px;
 }
 
 .nav-div{
@@ -44,6 +47,6 @@ li:hover{
     position: absolute;
     display: flex;
     flex-direction: column;
-    background-color: #333;;
+    background-color: #222;;
     
 }
