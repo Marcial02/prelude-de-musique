@@ -34,30 +34,34 @@
 .hero-content {
   position: relative;
   text-align: center;
-  color: white;
+  color: #f5f4f0;
   padding: 0 20px;
 }
 .hero-title {
   font-size: 2rem;
   margin-bottom: 1rem;
-  font-weight: bold;;
+  font-weight: bold;
+  
 }
 .hero-tagline {
   font-size: 3.5rem;
   margin-bottom: 1rem;
   font-weight: bold;
-   color: #ffee03
+   color: #ffee03;
+   margin: 0;
+  padding: 0;
 }
 .hero-tagline-sub {
-  font-size: 2rem;
+  font-size: 2.5rem;
   margin-bottom: 1rem;
   font-weight: bold;
+  color: #f88484;
 }
 
 .hero-pitch {
   font-size: 1rem;
   margin-bottom: 2rem;
-  color: #e0e0e0;
+  color: #f5f4f0;
   margin-right: 20%;
   margin-left: 20%;
 }
@@ -66,7 +70,7 @@
   padding: 12px 35px;
   font-size: 1.1rem;
   background-color: #b91d1d; /* Spotify green or your choice */
-  color: white;
+  color: #f5f4f0;
   border: none;
   border-radius: 50px;
   cursor: pointer;

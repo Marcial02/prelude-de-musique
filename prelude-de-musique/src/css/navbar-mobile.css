@@ -15,7 +15,7 @@
         right: -100%; /* Hidden */
         width: 50%;
         height: 100vh;
-        background-color: #222;
+        background-color: #0d0d0d;
         flex-direction: column;
         padding: 50px 0 0 0;
         transition: 0.4s ease-in-out;
@@ -33,9 +33,5 @@
     .dropdown-menu{
         position: relative
     }
-    h1{
-        font-size: 3rem;
-    }
-    
 }
   
