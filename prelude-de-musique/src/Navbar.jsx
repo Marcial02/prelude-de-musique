@@ -12,64 +12,77 @@ function Navbar() {
   };
 
   return (
-    <nav className='navbar'>
-      {/* Group 1: Logo */}
-      <div className='brand-logo'>
-        <a href="/">
-          <img src={PDEMLogo} alt="PDEM Logo" width={150} />
-        </a>
-      </div>
+   <nav className='nav-container'>
+    <div className='nav-logo'>
+    <a href=''>
+      <img src={PDEMLogo} alt="prelude de musique logo picture" width={200} />
+    </a>
+    </div>
 
-      {/* Hamburger Button (Mobile only) */}
-      <div className={`hamburger ${isOpen ? "toggle" : ""}`} onClick={toggleMenu}>
+    <div className={`hamburger ${isOpen ? "toggle" : ""}`} onClick={toggleMenu}>
         <div className="bar"></div>
         <div className="bar"></div>
            <div className="bar"></div>
-        
       </div>
 
-      {/* Group 2 & 3: Navigation Menu */}
-      <div className={`nav-menu ${isOpen ? "is-active" : ""}`}>
-        
-        {/* Center Links */}
-        <ul className='nav-links-center'>
-          <li><a href="#about">About</a></li>
-          <li 
-            onMouseEnter={() => setActiveMenu('courses')} 
-            onMouseLeave={() => setActiveMenu(null)}
-          >
-            <a href="#courses">Courses Offered ▾</a>
-            {activeMenu === 'courses' && (
+    <div className={`nav-div nav-menu ${isOpen ? "is-active" : ""}`}> 
+    <ul className=''>
+      <li><a href="">About</a></li>
+      <li
+       onMouseEnter={() => setActiveMenu('courses')} 
+            onMouseLeave={() => setActiveMenu(null)}>
+              <a href="">Courses Offered ▾</a>
+         {activeMenu === 'courses' && (
               <ul className='dropdown-menu'>
                 <li><a href="">Piano Lesson</a></li>
                 <li><a href="">Voice Lesson</a></li>
+                <li><a href="">Violin Lesson</a></li>
+                <li><a href="">Viola Lesson</a></li>
                 <li><a href="">Guitar Lesson</a></li>
+                <li><a href="">Ukelele Lesson</a></li>
+                <li><a href="">Flute Lesson</a></li>
+                <li><a href="">Saxophone Lesson</a></li>
+                <li><a href="">Recorder Lesson</a></li>
                 <li><a href="">Drum Lesson</a></li>
+                <li><a href="">Trumpet Lesson</a></li>
               </ul>
             )}
-          </li>
-          <li><a href="#pricing">Pricing</a></li>
-        </ul>
-
-        {/* Right Links */}
-        <ul className='nav-links-right'>
-          <li 
-            onMouseEnter={() => setActiveMenu('enroll')} 
-            onMouseLeave={() => setActiveMenu(null)}
-          >
-            <a href="#enroll">Enroll Now ▾</a>
-            {activeMenu === 'enroll' && (
+            </li>
+      <li><a href="">Price</a></li>
+      <li
+       onMouseEnter={() => setActiveMenu('enroll')} 
+            onMouseLeave={() => setActiveMenu(null)}>
+              <a href="">Enroll Now ▾</a>
+         {activeMenu === 'enroll' && (
               <ul className='dropdown-menu'>
-                <li><a href="">Manila Branch</a></li>
-                <li><a href="">Online Branch</a></li>
+                 <li><a href="">Kawit Branch</a></li>
+                <li><a href="">Imus Branch</a></li>
+                <li><a href="">Bacoor Branch</a></li>
+                <li><a href="">Dasma Branch</a></li>
+                <li><a href="">Home Service</a></li>
+                <li><a href="">Online Lesson</a></li>
               </ul>
             )}
-          </li>
-          <li><a href="#contact">Contact Us</a></li>
-        </ul>
-
-      </div>
-    </nav>
+            </li>
+      <li
+       onMouseEnter={() => setActiveMenu('more')} 
+            onMouseLeave={() => setActiveMenu(null)}>
+              <a href="">More ▾</a>
+         {activeMenu === 'more' && (
+              <ul className='dropdown-menu'>
+                <li><a href="">Teachers</a></li>
+                <li><a href="">Testimonials</a></li>
+                <li><a href="">School Policy</a></li>
+                <li><a href="">Recitals</a></li>
+              </ul>
+            )}
+            </li>
+      <li><a href="">Contact</a></li>
+    </ul>
+    </div>
+   
+   
+   </nav>
   );
 }
 
