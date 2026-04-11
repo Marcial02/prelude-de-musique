@@ -23,18 +23,41 @@ section{
     width: 100%;
     height: 100%;
     background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0), rgb(0, 0, 0));
-    
     position: absolute;
+    transition: all 0.3s ease; 
 }
+
+.course-item a:hover .course-item-overlay{
+    background-color: rgba(0, 0, 0, 0.650);
+
+}
+
 .course-item img{
-    height: 300px;
+    height: 425px;
+    width: 350px;
     display: block;
+    object-fit: cover;
     
 }
-h3{
-    color: #d3d3d3;
-    padding-bottom: 20px;
+.course-item-text-container{
+    position: absolute;
+    color: #d3d3d3;;
+    display: flex;
+    flex-direction: column;
+    padding: 25px;
+    bottom: 0;
+    z-index: 1;
+    gap: 10px;
 }
+.course-item-text-container h3{
+    text-align: left;
+    font-size: x-large;
+}
+.course-item-text-container p{
+    text-align: left;
+    font-size: medium;
+}
+
 h1 {
     text-align: center;
      color: #f88484;
