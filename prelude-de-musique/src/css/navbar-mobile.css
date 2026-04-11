@@ -33,6 +33,9 @@
     .dropdown-menu{
         position: relative
     }
+    h1{
+        font-size: 3rem;
+    }
     
 }
   
