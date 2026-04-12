@@ -1,6 +1,7 @@
 import Navbar from './Navbar.jsx'
 import Hero from './Hero.jsx'
 import Courses from './Courses.jsx'
+import Teachers from './Teachers.jsx'
 
 function Home (){
 
@@ -9,6 +10,7 @@ function Home (){
    <Navbar />
    <Hero />
    <Courses />
+   <Teachers />
    </>
   )
 

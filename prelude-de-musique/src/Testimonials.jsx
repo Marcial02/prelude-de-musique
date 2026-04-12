@@ -23,7 +23,8 @@ const TestimonialCard = ({data}) => (
 function Testimonials () {
     return(
     <section className='testimonials-section'>
-        <h1 className='section-title'>Students and Parents Testimonials</h1>
+        <h2 className='testimonials-section-sub-title'>Students and Parents</h2>
+        <h1 className='testimonials-section-title'>TESTIMONIALS</h1>
         <div className='testimonial-grid'>
             {testimonials.map(
                 (item)=>(
