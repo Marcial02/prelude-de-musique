@@ -1,7 +1,7 @@
-import { defaultClientConditions } from 'vite'
 import {testimonials} from './js/testimonials'
+import './css/testimonials.css'
 
-const testimonialCard = ({data}) => (
+const TestimonialCard = ({data}) => (
     <div className='testimonial-card'>
         <div className='card-header'>
         <img src={data.avatar} alt="" />
@@ -11,18 +11,18 @@ const testimonialCard = ({data}) => (
             </div>
         </div>
         <p className='content'>{data.content}</p>
-        <a href={link}></a>
+        <a href={data.link}></a>
 
     </div>
 )
 function Testimonials () {
     return(
-    <section>
+    <section className='testimonials-section'>
         <h1>Students and Parents Testimonials</h1>
         <div className='testimonial-grid'>
             {testimonials.map(
                 (item)=>(
-                    <testimonialCard key={item} data={item} />
+                    <TestimonialCard key={item.id} data={item} />
                 )
             )}
         </div>

@@ -1,18 +1,18 @@
-testimonials [
+export const testimonials = [
     {
         'id': 1,
-        'name':'',
+        'name':'meow meow',
         'avatar': '',
-        'platform':'',
+        'platform':'Facebook',
         'content': '',
         'link': '',
 
     },
     {
         'id': 2,
-        'name':'',
+        'name':'arf arf',
         'avatar': '',
-        'platform':'',
+        'platform':'Facebook',
         'content': '',
         'picture': '',
 

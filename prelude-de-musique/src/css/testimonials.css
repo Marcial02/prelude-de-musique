@@ -1,0 +1,71 @@
+.testimonials-section{
+    background-color: rgb(245, 236, 215);
+}
+
+.wrapper {
+  padding: 50px;
+  background-color: #f9f9f9;
+  font-family: sans-serif;
+}
+
+.title {
+  text-align: center;
+  margin-bottom: 40px;
+  font-size: 2rem;
+}
+
+/* THE MASONRY MAGIC */
+.testimonial-grid {
+  column-count: 3; /* 3 columns on desktop */
+  column-gap: 20px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.testimonial-card {
+  background: white;
+  border: 1px solid #eee;
+  border-radius: 12px;
+  padding: 20px;
+  margin-bottom: 20px; /* Gap between cards vertically */
+  display: inline-block; /* Important for column-count layout */
+  width: 100%;
+  box-sizing: border-box;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.05);
+}
+
+.card-header {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin-bottom: 15px;
+}
+
+.avatar {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+}
+
+.name {
+  font-weight: bold;
+  display: block;
+}
+
+.platform-tag {
+  font-size: 0.8rem;
+  color: #666;
+}
+
+.content {
+  color: #444;
+  line-height: 1.5;
+  font-style: italic;
+}
+
+/* Responsive: 1 column on mobile */
+@media (max-width: 768px) {
+  .testimonial-grid {
+    column-count: 1;
+  }
+}
