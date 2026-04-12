@@ -1,5 +1,6 @@
 .testimonials-section{
     background-color: rgb(245, 236, 215);
+    padding: 0 10% 10% 10%;
 }
 
 .wrapper {
@@ -46,6 +47,12 @@
   height: 40px;
   border-radius: 50%;
 }
+.testimonials-picture {
+  width: 100%;
+  height: auto;
+  border-radius: 5%;
+  padding-bottom: 10px;
+}
 
 .name {
   font-weight: bold;
@@ -61,11 +68,23 @@
   color: #444;
   line-height: 1.5;
   font-style: italic;
+  padding-bottom: 20px;
+}
+.section-title{
+  padding-bottom: 100px;
+}
+
+.card-link{
+  text-decoration: none;
+  color: #444;
 }
 
 /* Responsive: 1 column on mobile */
 @media (max-width: 768px) {
   .testimonial-grid {
     column-count: 1;
+  }
+  .section-title {
+    font-size:xx-large;
   }
 }

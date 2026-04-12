@@ -1,92 +1,102 @@
 export const testimonials = [
     {
         'id': 1,
-        'name':'meow meow',
-        'avatar': '',
+        'name':'Michelle Ivy Dimayuga',
+        'avatar': './images/avatar1.jpg',
+        'picture': './images/testimonial1.jpg',
+        'content': 'Gabriel has been attending piano lessons for a year now. He initially began at the Kawit Branch but later moved to the Imus Branch. All the teachers who were assigned to him have been truly exceptional. Despite starting with no prior knowledge, my son has shown remarkable improvement and eagerly anticipates each upcoming session. I extend my sincere gratitude to Teacher Ruzzel, Teacher Mark, Teacher Francis, and Teacher Laurice for their composed approach and encouraging teaching methods.',
         'platform':'Facebook',
-        'content': '',
-        'link': '',
+        'link': 'https://www.facebook.com/share/p/1KgaBtcMd2/'
 
     },
     {
         'id': 2,
-        'name':'arf arf',
-        'avatar': '',
+        'name':'Ping Bauzon-Ner',
+        'avatar': './images/avatar2.jpg',
+        'picture': './images/testimonial3.jpg',
+        'content': 'Highly recommend Prelude, especially Teacher Mark for being patient with my daughter. Thank you to all teachers for sharing your talents. Looking forward to more years with Prelude. More power!',
         'platform':'Facebook',
-        'content': '',
-        'picture': '',
+        'link': 'https://www.facebook.com/share/p/1BG7vbL4dc/'
 
     },
     {
         'id': 3,
-        'name':'',
-        'avatar': '',
-        'platform':'',
-        'content': '',
-        'picture': '',
+        'name':'Naome Lacra Sanchez',
+        'avatar': './images/avatar3.jpg',
+        'picture': './images/testimonial2.jpg',
+        'content': 'PDEM is a gem. They were of huge help during pandemic lowest time. Having both of my children learn piano virtually is something new and challenging but kids able to do in weeks. Thanks to the teachers of PDEM for the patience, dedication and heart for music. Special thanks to teacher Jeyps for supporting my son’s recital journey. And for going extra mile to meet and coach my son personally as prep for the recital❤️🙏',
+        'platform':'Facebook',
+        'link': 'https://www.facebook.com/share/p/1DNQNN1uFV/'
+        
 
     },
     {
         'id': 4,
-        'name':'',
-        'avatar': '',
-        'platform':'',
-        'content': '',
+        'name':'Chie Gaddi',
+        'avatar': './images/avatar4.jpg',
+        'platform':'Facebook',
+        'content': `Prelude de Musique is nothing short of providing quality piano lessons for our children. The teachers are very supportive, professional and helpful. Our first year has gone off positively and we're excited for the years to come. Highly recommended.`,
         'picture': '',
+        'link': 'https://www.facebook.com/share/p/1G1W41k9kT/'
 
     },
     {
         'id': 5,
-        'name':'',
-        'avatar': '',
-        'platform':'',
-        'content': '',
+        'name':'Babylou Alagar Awid',
+        'avatar': './images/avatar5.jpg',
+        'platform':'Facebook',
+        'content': 'My daughter learn fast, I highly recommend prelude de musique. Reasonable price and provide quality learning. Teachers are professional, cheerful and kind.',
         'picture': '',
+        'link': 'https://www.facebook.com/share/p/1CcDFhDRs3/'
 
     },
     {
         'id': 6,
-        'name':'',
-        'avatar': '',
-        'platform':'',
-        'content': '',
+        'name':'Jakub Clanza',
+        'avatar': './images/avatar6.jpg',
+        'platform':'Facebook',
+        'content': 'I highly Recommend Prelude de Musique! The staff are easy to talk to, the teachers are approachable and I also like the books that they use My Piano Adventures',
         'picture': '',
+        'link': 'https://www.facebook.com/share/p/18E2TsyqSw/'
 
     },
     {
         'id': 7,
-        'name':'',
-        'avatar': '',
-        'platform':'',
-        'content': '',
+        'name':'Tin Del Rosario',
+        'avatar': './images/avatar7.jpg',
+        'platform':'Facebook',
+        'content': 'Teachers here really helped my daughters develop their skills in piano and ukelele. Very accommodating and will entertain questions all the time. I also appreciate their regular student progress updates.',
         'picture': '',
+        'link': 'https://www.facebook.com/share/p/1GcBYRdwMB/'
 
     },
     {
         'id': 8,
-        'name':'',
-        'avatar': '',
-        'platform':'',
-        'content': '',
+        'name':'Zharmae Grace Rabe',
+        'avatar': './images/avatar8.jpg',
+        'platform':'Facebook',
+        'content': `My 6year old daughter has been learning piano lessons for 3months now and I am very proud of her improvements since then. From zero knowledge, she can easily read notes and played fun playsheet songs already. I am thankful for the hardworking teachers behind my daughter's milestone. No pressure at all and she's just having fun during piano lessons. Very competent and professional.. I highly recommend Prelude de Musique. Kudos to all teachers.`,
         'picture': '',
+        'link': 'https://www.facebook.com/share/p/18GykajHUY/'
 
     },
     {
         'id': 9,
-        'name':'',
-        'avatar': '',
-        'platform':'',
-        'content': '',
+        'name':'Rahn Escarola',
+        'avatar': './images/avatar9.jpg',
+        'platform':'Facebook',
+        'content': 'They encourage kids to be their best and nomatter how small their milestone is they are well appreciated  and kept motivated though it has been tough during this pandemic. Napakababait po talaga ng mga teachers and admins, very professional po lahat. Maeenjoy po ng kids nyo at madami matutunan.',
         'picture': '',
+        'link': 'https://www.facebook.com/share/p/1AuGv5K4Vw/'
 
     },
     {
         'id': 10,
-        'name':'',
-        'avatar': '',
-        'platform':'',
-        'content': '',
+        'name':'Kelly Lockridge',
+        'avatar': './images/avatar10.jpg',
+        'platform':'Facebook',
+        'content': 'They are very knowledgeable and patient. My daughter has been learning for two months. I am amazed at how fast she has learned. Great teachers.',
         'picture': '',
-
+        'link': 'https://www.facebook.com/share/p/17P5Jv1ud7/'
     }
 ]
