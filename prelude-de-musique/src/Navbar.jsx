@@ -7,9 +7,8 @@ import PDEMLogo from './assets/PDEM Logo.jpg';
 function Navbar() {
   const [activeMenu, setActiveMenu] = useState(null);
   const [isOpen, setIsOpen] = useState(false);
-  const [scrolled, setScrolled] = useState(false); // Moved to top level
+  const [scrolled, setScrolled] = useState(false); 
 
-  // 1. Logic for scroll effect (Moved to top level)
   useEffect(() => {
     const handleScroll = () => {
       if (window.scrollY > 50) {

@@ -20,7 +20,7 @@ function Hero(){
     return () => clearInterval(interval);
   }, [images.length]);
    return(
-    <section className="hero-container">
+    <section className="hero-container" id='home'>
       {/* Background Slideshow */}
       <div 
         className="hero-slide" 
