@@ -32,7 +32,7 @@ function Navbar() {
   return (
    <nav className={`nav-container ${scrolled ? 'scrolled' : ''}`}>
     <div className='nav-logo'>
-    <a href=''>
+    <a href='#home'>
       <img src={PDEMLogo} alt="prelude de musique logo picture" width={200} />
     </a>
     </div>
@@ -49,7 +49,7 @@ function Navbar() {
       <li
        onMouseEnter={() => setActiveMenu('courses')} 
             onMouseLeave={() => setActiveMenu(null)}>
-              <a href="">Courses Offered ▾</a>
+              <a href="#courses">Courses Offered ▾</a>
          {activeMenu === 'courses' && (
               <ul className='dropdown-menu'>
                 <li><a href="">Piano Lesson</a></li>
@@ -88,14 +88,14 @@ function Navbar() {
               <a href="">More ▾</a>
          {activeMenu === 'more' && (
               <ul className='dropdown-menu'>
-                <li><a href="">Teachers</a></li>
-                <li><a href="">Testimonials</a></li>
+                <li><a href="#teachers">Teachers</a></li>
+                <li><a href="#testimonials">Testimonials</a></li>
                 <li><a href="">School Policy</a></li>
                 <li><a href="">Recitals</a></li>
               </ul>
             )}
             </li>
-      <li><a href="">Contact</a></li>
+      <li><a href="#footer">Contact</a></li>
     </ul>
     </div>
    

@@ -3,7 +3,7 @@ import './css/courses.css'
 
 function Courses(){
 return(
-    <section className='courses-section'>
+    <section id='courses' className='courses-section'>
         <h1>COURSES OFFERED</h1>
          <div className='course-container'>
 

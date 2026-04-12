@@ -3,7 +3,7 @@ import './css/teachers.css'
 
 function Teachers(){
 return(
-    <section className='teachers-section'>
+    <section id='teachers' className='teachers-section'>
         <h1><span className='text-color'>PDEM</span> TEACHERS</h1>
          <div className='teachers-container'>
 

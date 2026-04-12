@@ -22,7 +22,7 @@ const TestimonialCard = ({data}) => (
 )
 function Testimonials () {
     return(
-    <section className='testimonials-section'>
+    <section id='testimonials' className='testimonials-section'>
         <h2 className='testimonials-section-sub-title'>Students and Parents</h2>
         <h1 className='testimonials-section-title'>TESTIMONIALS</h1>
         <div className='testimonial-grid'>
