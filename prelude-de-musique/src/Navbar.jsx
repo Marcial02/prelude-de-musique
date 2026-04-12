@@ -2,7 +2,7 @@ import { useState } from 'react';
 import { useEffect } from 'react';
 import './css/navbar.css';
 import './css/navbar-mobile.css';
-import PDEMLogo from './assets/PDEM Logo.jpg';
+import PDEMLogo from '/images/PDEM Logo.jpg';
 
 function Navbar() {
   const [activeMenu, setActiveMenu] = useState(null);

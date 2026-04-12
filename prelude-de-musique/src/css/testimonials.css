@@ -51,7 +51,7 @@
   width: 100%;
   height: auto;
   border-radius: 5%;
-  padding-bottom: 10px;
+ 
 }
 
 .name {
@@ -77,6 +77,10 @@
 .card-link{
   text-decoration: none;
   color: #444;
+   padding-top: 10px;
+}
+.testimonial-card{
+
 }
 
 /* Responsive: 1 column on mobile */

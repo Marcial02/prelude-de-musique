@@ -10,6 +10,10 @@ const TestimonialCard = ({data}) => (
                 <span className='platform'>{data.platform}</span>
             </div>
         </div>
+        <span>{data.branch}</span>
+        <div className='testimonial-star'>
+            {data.rate && <div className='stars-row'>{[...Array(5)].map((_, i) => <span key={i} style={{ color: i < data.rate ? '#f8bc25' : '#444' }}>★</span>)}</div>}
+        </div>
         <p className='content'>{data.content}</p>
         <img className='testimonials-picture' src={data.picture} alt="" />
         <a className='card-link' href={data.link} target='_blank'>see more...</a>
