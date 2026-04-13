@@ -34,9 +34,9 @@ function Navbar() {
   return (
    <nav className={`nav-container ${scrolled ? 'scrolled' : ''}`}>
     <div className='nav-logo'>
-    <Link to='/'>
+    <HashLink smooth to='/#hero'>
       <img src={PDEMLogo} alt="prelude de musique logo picture" width={200} />
-    </Link>
+    </HashLink>
     </div>
 
     <div className={`hamburger ${isOpen ? "toggle" : ""}`} onClick={toggleMenu}>
@@ -68,11 +68,11 @@ function Navbar() {
               </ul>
             )}
             </li>
-      <li><a href="">Price</a></li>
+      <li><Link to="/Price">Price</Link></li>
       <li
        onMouseEnter={() => setActiveMenu('enroll')} 
             onMouseLeave={() => setActiveMenu(null)}>
-              <a href="">Enroll Now ▾</a>
+              <Link to="/Enroll">Enroll Now ▾</Link>
          {activeMenu === 'enroll' && (
               <ul className='dropdown-menu'>
                  <li><a href="">Kawit Branch</a></li>

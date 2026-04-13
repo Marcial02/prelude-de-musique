@@ -1,11 +1,11 @@
-import { avatarImage, gavatarImage } from "./images.js";
+import { avatarImage, gavatarImage, testimonialImage } from "./images.js";
 
 export const testimonials = [
     {
         'id': 1,
         'name':'Michelle Ivy Dimayuga',
         'avatar': avatarImage.avatar1,
-        'picture': './images/testimonial1.jpg',
+        'picture': testimonialImage.testimonial1,
         'content': 'Gabriel has been attending piano lessons for a year now. He initially began at the Kawit Branch but later moved to the Imus Branch. All the teachers who were assigned to him have been truly exceptional. Despite starting with no prior knowledge, my son has shown remarkable improvement and eagerly anticipates each upcoming session. I extend my sincere gratitude to Teacher Ruzzel, Teacher Mark, Teacher Francis, and Teacher Laurice for their composed approach and encouraging teaching methods.',
         'platform':'Facebook',
         'link': 'https://www.facebook.com/share/p/1KgaBtcMd2/'
@@ -15,7 +15,7 @@ export const testimonials = [
         'id': 2,
         'name':'Ping Bauzon-Ner',
         'avatar': avatarImage.avatar2,
-        'picture': './images/testimonial3.jpg',
+        'picture': testimonialImage.testimonial2,
         'content': 'Highly recommend Prelude, especially Teacher Mark for being patient with my daughter. Thank you to all teachers for sharing your talents. Looking forward to more years with Prelude. More power!',
         'platform':'Facebook',
         'link': 'https://www.facebook.com/share/p/1BG7vbL4dc/'
@@ -25,7 +25,7 @@ export const testimonials = [
         'id': 3,
         'name':'Naome Lacra Sanchez',
         'avatar': avatarImage.avatar3,
-        'picture': './images/testimonial2.jpg',
+        'picture': testimonialImage.testimonial3,
         'content': 'PDEM is a gem. They were of huge help during pandemic lowest time. Having both of my children learn piano virtually is something new and challenging but kids able to do in weeks. Thanks to the teachers of PDEM for the patience, dedication and heart for music. Special thanks to teacher Jeyps for supporting my son’s recital journey. And for going extra mile to meet and coach my son personally as prep for the recital❤️🙏',
         'platform':'Facebook',
         'link': 'https://www.facebook.com/share/p/1DNQNN1uFV/'
@@ -144,7 +144,7 @@ export const testimonials = [
         'avatar': gavatarImage.gavatar5,
         'platform':'Kawit Branch',
         'rate': '5',
-        'picture':'./images/gpicture1.png',
+        'picture': testimonialImage.gtestimonial1,
         'link': 'https://maps.app.goo.gl/LuxHJdh7Th11yCQj9'
     },
      {

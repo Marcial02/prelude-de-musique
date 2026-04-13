@@ -48,6 +48,11 @@ import gavatar5 from '/images/gavatar5.png';
 import gavatar6 from '/images/gavatar6.png';
 import gavatar7 from '/images/gavatar7.png';
 
+import testimonial1 from '/images/testimonial1.jpg';
+import testimonial2 from '/images/testimonial2.jpg';
+import testimonial3 from '/images/testimonial3.jpg';
+import gtestimonial1 from '/images/gtestimonial1.png';
+
 
 
 export const heroImage = {
@@ -64,4 +69,7 @@ export const avatarImage = {
 };
 export const gavatarImage = {
     gavatar1, gavatar2, gavatar3, gavatar4, gavatar5, gavatar6, gavatar7,
+};
+export const testimonialImage = {
+    testimonial1, testimonial2, testimonial3, gtestimonial1
 };
