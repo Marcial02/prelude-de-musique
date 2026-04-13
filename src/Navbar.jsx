@@ -4,6 +4,7 @@ import './css/navbar.css';
 import './css/navbar-mobile.css';
 import PDEMLogo from '/images/PDEM Logo.jpg';
 import { Link } from 'react-router-dom';
+import { HashLink } from 'react-router-hash-link';
 
 function Navbar() {
   const [activeMenu, setActiveMenu] = useState(null);
@@ -46,11 +47,11 @@ function Navbar() {
 
     <div className={`nav-div nav-menu ${isOpen ? "is-active" : ""} ${scrolled ? 'scrolled' : ''}`}> 
     <ul className=''>
-      <li><a href="">About</a></li>
+      <li><Link to ="/About" target='_blank'>About</Link></li>
       <li
        onMouseEnter={() => setActiveMenu('courses')} 
             onMouseLeave={() => setActiveMenu(null)}>
-              <a href="#courses">Courses Offered ▾</a>
+              <HashLink smooth to="/#courses">Courses Offered ▾</HashLink>
          {activeMenu === 'courses' && (
               <ul className='dropdown-menu'>
                 <li><a href="">Piano Lesson</a></li>
@@ -89,14 +90,14 @@ function Navbar() {
               <a href="">More ▾</a>
          {activeMenu === 'more' && (
               <ul className='dropdown-menu'>
-                <li><a href="#teachers">Teachers</a></li>
-                <li><a href="#testimonials">Testimonials</a></li>
+                <li><HashLink smooth to="/#teachers">Teachers</HashLink></li>
+                <li><HashLink smooth to="/#testimonials">Testimonials</HashLink></li>
                 <li><a href="">School Policy</a></li>
                 <li><a href="">Recitals</a></li>
               </ul>
             )}
             </li>
-      <li><a href="#footer">Contact</a></li>
+      <li><HashLink smooth to="#footer">Contact</HashLink></li>
     </ul>
     </div>
    
