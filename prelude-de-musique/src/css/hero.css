@@ -1,0 +1,83 @@
+.hero-container {
+  position: relative;
+  height: 100vh; /* Full screen height */
+  width: 100%;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.hero-slide {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  background-position: center;
+  transition: background-image 1s ease-in-out; /* Smooth transition ng slides */
+  z-index: -2;
+}
+
+/* Eto yung black overlay na tinatanong mo */
+.hero-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.6); /* 0.6 is 60% black opacity */
+  z-index: -1; /* Sa ibabaw ng image */
+}
+
+.hero-content {
+  position: relative;
+  text-align: center;
+  color: #f5f4f0;
+  padding: 0 20px;
+}
+.hero-title {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+  font-weight: bold;
+  
+}
+.hero-tagline {
+  font-size: 3.5rem;
+  margin-bottom: 1rem;
+  font-weight: bold;
+   color: #ffee03;
+   margin: 0;
+  padding: 0;
+}
+.hero-tagline-sub {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+  font-weight: bold;
+  color: #e31a3f;
+}
+
+.hero-pitch {
+  font-size: 1rem;
+  margin-bottom: 2rem;
+  color: #f5f4f0;
+  margin-right: 20%;
+  margin-left: 20%;
+}
+
+.hero-button {
+  padding: 12px 35px;
+  font-size: 1.1rem;
+  background-color: #e31a3f; /* Spotify green or your choice */
+  color: #f5f4f0;
+  border: none;
+  border-radius: 50px;
+  cursor: pointer;
+  transition: transform 0.2s;
+  z-index: 1;
+}
+
+.hero-button:hover {
+  transform: scale(1.05);
+}
