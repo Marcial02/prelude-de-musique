@@ -4,7 +4,9 @@ import {iconImage, branchImage} from './js/images.js'
 function Contact (){
     return(
         <section id='contact' className='contact-section'>
+            
             <h1>CONTACTS</h1>
+
             <div className='contact-container-s'>
                
                 <div className='contact-card-s'>

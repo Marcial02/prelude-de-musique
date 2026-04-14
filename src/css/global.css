@@ -22,3 +22,9 @@ body, HTML{
 input, button, textarea, select {
     font-family: "Montserrat", sans-serif;
 }
+
+@media (max-width: 1024px){
+    h1{
+        font-size: 6px;
+    }
+}

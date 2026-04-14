@@ -6,6 +6,7 @@
     justify-content: center;
     gap: 30px;
     padding: 20px;
+    flex-wrap: wrap;
 }
 .contact-container-m{
    display: flex;
@@ -26,7 +27,6 @@
     align-items: center;
     flex-direction: column;
     gap: 20px;
-    border: solid 2px;
     padding: 20px;
     background-color: rgb(80, 80, 80);
     color: white;

@@ -93,14 +93,13 @@
 
 
 /* Responsive: 1 column on mobile */
-@media (max-width: 768px) {
+@media (max-width: 1024px) {
   .testimonial-grid {
     column-count: 1;
   }
   .testimonials-section-title{
   text-align: center;
      color: #f88484;
-     font-size: 60px;
      font-weight: 500;
      padding: 0 0 10% 0;
 }
