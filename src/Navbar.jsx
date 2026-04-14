@@ -97,7 +97,7 @@ function Navbar() {
               </ul>
             )}
             </li>
-      <li><HashLink smooth to="#footer">Contact</HashLink></li>
+      <li><HashLink smooth to="#contact">Contact</HashLink></li>
     </ul>
     </div>
    

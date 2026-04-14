@@ -53,7 +53,13 @@ import testimonial2 from '/images/testimonial2.jpg';
 import testimonial3 from '/images/testimonial3.jpg';
 import gtestimonial1 from '/images/gtestimonial1.png';
 
+import iconPhone from '/images/icon-phone.png'
+import iconFB from '/images/icon-fb.png'
+import iconEmail from '/images/icon-email.png'
 
+import branchImus from '/images/branch-imus.png'
+import branchBacoor from '/images/branch-bacoor.png'
+import branchKawit from '/images/branch-kawit.png'
 
 export const heroImage = {
  hero1, hero2, hero3, hero4, hero5, hero6
@@ -73,3 +79,10 @@ export const gavatarImage = {
 export const testimonialImage = {
     testimonial1, testimonial2, testimonial3, gtestimonial1
 };
+export const iconImage = {
+    iconPhone, iconFB, iconEmail
+}
+
+export const branchImage = {
+    branchImus, branchBacoor, branchKawit
+}
