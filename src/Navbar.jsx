@@ -47,7 +47,7 @@ function Navbar() {
 
     <div className={`nav-div nav-menu ${isOpen ? "is-active" : ""} ${scrolled ? 'scrolled' : ''}`}> 
     <ul className=''>
-      <li><Link to ="/About" target='_blank'>About</Link></li>
+      <li><HashLink to ="/About">About</HashLink></li>
       <li
        onMouseEnter={() => setActiveMenu('courses')} 
             onMouseLeave={() => setActiveMenu(null)}>
@@ -68,7 +68,7 @@ function Navbar() {
               </ul>
             )}
             </li>
-      <li><Link to="/Price">Price</Link></li>
+      <li><HashLink to="/Price">Price</HashLink></li>
       <li
        onMouseEnter={() => setActiveMenu('enroll')} 
             onMouseLeave={() => setActiveMenu(null)}>
@@ -87,7 +87,7 @@ function Navbar() {
       <li
        onMouseEnter={() => setActiveMenu('more')} 
             onMouseLeave={() => setActiveMenu(null)}>
-              <a href="">More ▾</a>
+              <a className='more'>More ▾</a>
          {activeMenu === 'more' && (
               <ul className='dropdown-menu'>
                 <li><HashLink smooth to="/#teachers">Teachers</HashLink></li>

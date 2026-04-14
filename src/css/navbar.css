@@ -70,3 +70,6 @@ li:hover{
     background-color: rgba(0, 0, 0, 0.750);
      transition: background-color 0.2s ease-in-out, padding 0.2s ease; 
 }
+.more  {
+    cursor: pointer;
+}
