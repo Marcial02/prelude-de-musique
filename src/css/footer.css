@@ -1,0 +1,25 @@
+.footer-section{
+    background-color: #333;
+    height: auto;
+    
+}
+.footer-container{
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.footer-container ul{
+        display: flex;
+        gap: 30px;
+    justify-content: center;
+}
+.footer-container a{
+    color: rgb(213, 209, 205);
+    text-decoration: none;
+}
+.keonite {
+    padding-top: 20px;
+    display: flex;
+     justify-content: center;
+}
