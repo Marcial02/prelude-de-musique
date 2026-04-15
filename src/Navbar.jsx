@@ -47,6 +47,7 @@ function Navbar() {
 
     <div className={`nav-div nav-menu ${isOpen ? "is-active" : ""} ${scrolled ? 'scrolled' : ''}`}> 
     <ul className=''>
+      <li><HashLink to ="/#hero">Home</HashLink></li>
       <li><HashLink to ="/About">About</HashLink></li>
       <li
        onMouseEnter={() => setActiveMenu('courses')} 
@@ -68,7 +69,6 @@ function Navbar() {
               </ul>
             )}
             </li>
-      <li><HashLink to="/Price">Price</HashLink></li>
       <li
        onMouseEnter={() => setActiveMenu('enroll')} 
             onMouseLeave={() => setActiveMenu(null)}>
@@ -92,6 +92,7 @@ function Navbar() {
               <ul className='dropdown-menu'>
                 <li><HashLink smooth to="/#teachers">Teachers</HashLink></li>
                 <li><HashLink smooth to="/#testimonials">Testimonials</HashLink></li>
+                <li><HashLink smooth to="/#enroll">Prices</HashLink></li>
                 <li><a href="">School Policy</a></li>
                 <li><a href="">Recitals</a></li>
               </ul>
