@@ -56,6 +56,7 @@ import gtestimonial1 from '/images/gtestimonial1.png';
 import iconPhone from '/images/icon-phone.png'
 import iconFB from '/images/icon-fb.png'
 import iconEmail from '/images/icon-email.png'
+import iconYT from '/images/icon-yt.png'
 
 import branchImus from '/images/branch-imus.png'
 import branchBacoor from '/images/branch-bacoor.png'
@@ -80,7 +81,7 @@ export const testimonialImage = {
     testimonial1, testimonial2, testimonial3, gtestimonial1
 };
 export const iconImage = {
-    iconPhone, iconFB, iconEmail
+    iconPhone, iconFB, iconEmail, iconYT
 }
 
 export const branchImage = {

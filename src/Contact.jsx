@@ -21,7 +21,11 @@ function Contact (){
                 </div>
                  <div className='contact-card-s'>
                     <img src={iconImage.iconFB} alt="" />
-                    <p><a href="www.facebook.com/preludedemusique">fb.com/preludedemusique</a></p>
+                    <p><a href="https://www.facebook.com/preludedemusique">fb.com/preludedemusique</a></p>
+                </div>
+                <div className='contact-card-s'>
+                    <img src={iconImage.iconYT} alt="" />
+                    <p><a href="https://www.youtube.com/@preludedemusique">fb.com/preludedemusique</a></p>
                 </div>
                 </div>
                 

@@ -13,7 +13,7 @@ function Footer(){
                     <li><Link to=''>Enroll Now</Link></li>
                     <li><HashLink to=''>Contact</HashLink></li>
                 </ul>
-                <a className='keonite' href="https://keonite.com">© Keonite.com</a>
+                <a className='keonite' href="https://keonite.com" target='_blank'>© Keonite.com</a>
 
             </div>
 

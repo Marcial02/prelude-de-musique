@@ -27,10 +27,10 @@ ul{
     display: flex;
     list-style-type: none;
 }
-li{
+.nav-div li{
      transition: background-color 0.2s ease-in-out, padding 0.2s ease; 
 }
-li:hover{
+.nav-div li:hover{
     background-color: rgba(0, 0, 0, 0.750);
 }
 .nav-container.scrolled li:hover{
