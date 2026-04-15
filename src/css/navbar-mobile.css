@@ -13,11 +13,11 @@
         position: fixed;
         top: 0;
         right: -100%; /* Hidden */
-        width: 50%;
+        width: 200px;
         height: 100vh;
         background-color: #0d0d0d;
         flex-direction: column;
-        padding: 50px 0 0 0;
+        padding: 100px 0 0 0;
         transition: 0.4s ease-in-out;
     }
     .nav-menu ul{

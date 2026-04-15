@@ -49,8 +49,9 @@
 }
 .testimonials-picture {
   width: 100%;
-  height: auto;
+  max-height: 200px;
   border-radius: 5%;
+  object-fit: cover;
  
 }
 
@@ -95,7 +96,16 @@
 /* Responsive: 1 column on mobile */
 @media (max-width: 1024px) {
   .testimonial-grid {
-    column-count: 1;
+  display: flex;
+  flex-direction: row;
+  margin: 0 auto;
+  column-count: auto;
+  overflow-x: auto;   /* Enable horizontal scroll */
+    padding: 20px;
+    gap: 15px;
+}
+  .testimonials-section {
+    max-height: none;
   }
   .testimonials-section-title{
   text-align: center;
@@ -110,4 +120,17 @@
      font-weight: 300;
      padding: 10% 0 0 0;
 }
+.testimonial-card{
+flex: 0 0 300px;    /* Force each card to stay exactly 300px wide */
+    margin-bottom: 0;   /* Remove bottom margin used in desktop */
+    display: block;     
+    height: fit-content;
+}
+.content{
+  max-height: 250px;
+  overflow: scroll;
+}
+
+
+
 }

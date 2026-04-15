@@ -11,8 +11,9 @@
 }
 .footer-container ul{
         display: flex;
-        gap: 30px;
+        gap: 10px;
     justify-content: center;
+    flex-wrap: wrap;
 }
 .footer-container a{
     color: rgb(213, 209, 205);

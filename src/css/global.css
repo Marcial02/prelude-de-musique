@@ -25,6 +25,9 @@ input, button, textarea, select {
 
 @media (max-width: 1024px){
     h1{
-        font-size: 6px;
+        font-size: 30px !important;
+    }
+     p{
+        font-size: 11px !important;
     }
 }
