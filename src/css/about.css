@@ -13,16 +13,34 @@
 .about-container{
     display: flex;
     flex-direction: column;
-    width: 30%;
+    width: 40%;
     text-align: justify;
     gap: 25px;
 }
 .policy-container{
     display: flex;
-    width: 70%;
+    width: 60%;
     padding: 20px;
     flex-direction: column;
     gap: 25px;
+}
+.faq{
+    display: flex;
+    flex-direction: column;
+    
+}
+.about-section h2{
+    text-align: left;
+    padding: 10px 0;
+}
+.about-section ul{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+.about-section h3{
+    padding-bottom: 5px;
+    text-align: left;
 }
 
 @media (max-width: 1024px){
