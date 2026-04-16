@@ -15,27 +15,29 @@ function Enroll(){
                
                 <div className="branch-item">
                     <h2>Imus Branch</h2>
-                <HashLink to=""><img  src="" alt="" /></HashLink>
+                <HashLink to="/imus#imus"><img  src="" alt="" /></HashLink>
                 </div> 
                 <div className="branch-item">
                     <h2>Bacoor Branch</h2>
-                <HashLink to="/Bacoor/#bacoor"><img  src="" alt="" /></HashLink>
+                <HashLink to="/bacoor#bacoor"><img  src="" alt="" /></HashLink>
                 </div>
                  <div className="branch-item">
                     <h2>Kawit Branch</h2>
-                  <img  src="" alt="" />
+                <HashLink to="/kawit#kawit"><img  src="" alt="" /></HashLink>
                 </div>
                  <div className="branch-item">
                     <h2>Damariñas Branch</h2>
-                <img  src="" alt="" />
+                 <HashLink to="/dasmariñas#dasmariñas"><img  src="" alt="" /></HashLink>
+
                 </div>
                  <div className="branch-item">
                     <h2>Online</h2>
-                  <img  src="" alt="" />
+               <HashLink to="/online#online"><img  src="" alt="" /></HashLink>
+
                 </div>
                  <div className="branch-item">
                     <h2>Home Service</h2>
-                  <img  src="" alt="" />
+               <HashLink to="/homeservice#homeservice"><img  src="" alt="" /></HashLink>
                 </div>
             </div>
             <div className='branch-text'>

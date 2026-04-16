@@ -6,7 +6,7 @@ function Bacoor(){
                 <div className='banner'></div>
                 <h1>Bacoor Branch</h1>
             </div>
-            <div>
+            <div className='intro-text'>
                 <p>Thank you for choosing Prelude de Musique - Bacoor Branch for your musical journey.
 
 Make sure you have already chosen a teacher and schedule that fits you before filling up the enrollment form. if you have not yet chosen a schedule please message us here.

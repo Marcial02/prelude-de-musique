@@ -8,11 +8,11 @@ import Price from './Price.jsx'
 import Enroll from './Enroll.jsx'
 import Contact from './Contact.jsx'
 import Bacoor from './SubPages/BacoorBranch.jsx'
-// import Imus from './SubPages/ImusBranch.jsx'
-// import Kawit from './SubPages/KawitBranch.jsx'
-// import Dasmariñas from './SubPages/DasmariñasBranch.jsx'
-// import Online from './SubPages/Online.jsx'
-// import HomeService from './SubPages/HomeService.jsx'
+import Imus from './SubPages/ImusBranch.jsx'
+import Kawit from './SubPages/KawitBranch.jsx'
+import Dasmariñas from './SubPages/DasmariñasBranch.jsx'
+import Online from './SubPages/Online.jsx'
+import HomeService from './SubPages/HomeService.jsx'
 import "@fontsource/montserrat"; // Defaults to weight 400
 import "@fontsource/montserrat/700.css"; // bold links/headers
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
@@ -26,11 +26,18 @@ function App() {
       <Navbar />
 
       <Routes>
-      <Route path="/" index element={<Home />} />
-      <Route path="/About" element={<About />} />
-      <Route path="/Price" element={<Price />} />
-      <Route path="/Enroll" element={<Enroll />} />
-      <Route path="/Bacoor" element={<Bacoor />} />
+      <Route index element={<Home />} />
+      <Route path="about" element={<About />} />
+      <Route path="price" element={<Price />} />
+      <Route path="enroll" element={<Enroll />} />
+
+      <Route path="bacoor" element={<Bacoor />} />
+      <Route path="imus" element={<Imus />} />
+      <Route path="dasmariñas" element={<Dasmariñas />} />
+      <Route path="kawit" element={<Kawit />} />
+      <Route path="online" element={<Online />} />
+      <Route path="homeservice" element={<HomeService />} />
+      <Route path="*" element={<Home />} />
       </Routes>
       <Contact />
       <Footer />

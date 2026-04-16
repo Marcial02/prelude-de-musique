@@ -11,6 +11,7 @@
     gap: 20px;
     justify-content: center;
     padding: 20px;
+    flex-wrap: wrap;
 
 
 
@@ -18,5 +19,6 @@
 .price-list-item{
     padding: 10px;
     border: solid;
+    width: 200px;
   
 }

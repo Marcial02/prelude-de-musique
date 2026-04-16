@@ -58,6 +58,10 @@ input, button, textarea, select {
 }
 .column-container{
     display: flex;
+    padding: 0 5%;
+}
+.intro-text{
+    padding: 20px 10%;
 }
 @media (max-width: 1024px){
     h1{
@@ -65,5 +69,8 @@ input, button, textarea, select {
     }
      p{
         font-size: 11px !important;
+    }
+    .column-container{
+        flex-direction: column;
     }
 }

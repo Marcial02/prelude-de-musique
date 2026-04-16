@@ -28,13 +28,13 @@ function Navbar() {
   const toggleMenu = () => {
     setIsOpen(!isOpen);
   };
-
+  const basePath = window.location.hostname === 'localhost' ? '/prelude-de-musique/' : '/';
   
 
   return (
    <nav className={`nav-container ${scrolled ? 'scrolled' : ''}`}>
     <div className='nav-logo'>
-    <HashLink smooth to='/#hero'>
+    <HashLink smooth to={`${basePath}#hero`}>
       <img src={PDEMLogo} alt="prelude de musique logo picture" width={200} />
     </HashLink>
     </div>
@@ -47,12 +47,12 @@ function Navbar() {
 
     <div className={`nav-div nav-menu ${isOpen ? "is-active" : ""} ${scrolled ? 'scrolled' : ''}`}> 
     <ul className=''>
-      <li><HashLink to ="/#hero">Home</HashLink></li>
-      <li><HashLink to ="/About/#about">About</HashLink></li>
+      <li><HashLink to ={`${basePath}#hero`}>Home</HashLink></li>
+      <li><HashLink to ="/about#about">About</HashLink></li>
       <li
        onMouseEnter={() => setActiveMenu('courses')} 
             onMouseLeave={() => setActiveMenu(null)}>
-              <HashLink smooth to="/#courses">Courses Offered ▾</HashLink>
+              <HashLink smooth to={`${basePath}#courses`}>Courses Offered ▾</HashLink>
          {activeMenu === 'courses' && (
               <ul className='dropdown-menu'>
                 <li><a href="">Piano Lesson</a></li>
@@ -72,15 +72,15 @@ function Navbar() {
       <li
        onMouseEnter={() => setActiveMenu('enroll')} 
             onMouseLeave={() => setActiveMenu(null)}>
-              <HashLink to="/Enroll/#enroll">Enroll Now ▾</HashLink>
+              <HashLink to="/enroll#enroll">Enroll Now ▾</HashLink>
          {activeMenu === 'enroll' && (
               <ul className='dropdown-menu'>
-                 <li><a href="">Kawit Branch</a></li>
-                <li><a href="">Imus Branch</a></li>
-                <li><a href="">Bacoor Branch</a></li>
-                <li><a href="">Dasma Branch</a></li>
-                <li><a href="">Home Service</a></li>
-                <li><a href="">Online Lesson</a></li>
+                 <li><HashLink to="/kawit#kawit">Kawit Branch</HashLink></li>
+                <li><HashLink to="/imus#imus">Imus Branch</HashLink></li>
+                <li><HashLink to="/bacoor#bacoor">Bacoor Branch</HashLink></li>
+                <li><HashLink to="/dasmariñas#dasmariñas">Dasma Branch</HashLink></li>
+                <li><HashLink to="/homeservice#homeservice">Home Service</HashLink></li>
+                <li><HashLink to="/online#online">Online Lesson</HashLink></li>
               </ul>
             )}
             </li>
@@ -90,9 +90,9 @@ function Navbar() {
               <a className='more'>More ▾</a>
          {activeMenu === 'more' && (
               <ul className='dropdown-menu'>
-                <li><HashLink smooth to="/#teachers">Teachers</HashLink></li>
-                <li><HashLink smooth to="/#testimonials">Testimonials</HashLink></li>
-                <li><HashLink smooth to="/#enroll">Prices</HashLink></li>
+                <li><HashLink smooth to={`${basePath}#teachers`}>Teachers</HashLink></li>
+                <li><HashLink smooth to={`${basePath}#testimonials`}>Testimonials</HashLink></li>
+                <li><HashLink smooth to="/Enroll#enroll">Prices</HashLink></li>
                 <li><a href="">School Policy</a></li>
                 <li><a href="">Recitals</a></li>
               </ul>
