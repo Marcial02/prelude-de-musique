@@ -7,11 +7,11 @@ function Footer(){
         <section id="footer" className="footer-section">
             <div className='footer-container'>
                 <ul>
-                    <li><HashLink to=''>Home</HashLink></li>
-                    <li><HashLink to=''>Courses Offered</HashLink></li>
-                    <li><Link to=''>Price</Link></li>
-                    <li><Link to=''>Enroll Now</Link></li>
-                    <li><HashLink to=''>Contact</HashLink></li>
+                    <li><HashLink to='/#home'>Home</HashLink></li>
+                    <li><HashLink to='/#courses'>Courses Offered</HashLink></li>
+                    <li><Link to='/Enroll/#enroll'>Price</Link></li>
+                    <li><Link to='/Enroll/#enroll'>Enroll Now</Link></li>
+                    <li><HashLink to='#contact'>Contact</HashLink></li>
                 </ul>
                 <a className='keonite' href="https://keonite.com" target='_blank'>© Keonite.com</a>
 

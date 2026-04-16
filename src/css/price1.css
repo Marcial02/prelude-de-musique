@@ -1,0 +1,22 @@
+.price-section{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    text-align: center;
+    gap: 50px;
+    padding: 50px 0;
+}
+.price-list-container{
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    padding: 20px;
+
+
+
+}
+.price-list-item{
+    padding: 10px;
+    border: solid;
+  
+}

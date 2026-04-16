@@ -1,4 +1,4 @@
-.header-container{
+.header{
     display: flex;
     justify-content: center;
     padding: 100px;
@@ -42,9 +42,9 @@
     padding-bottom: 5px;
     text-align: left;
 }
-.about-section h1{
-    color: #ffff;
-    font-size: 3rem;
+.about-section{
+     /* background-color: #111;
+     color: white; */
 }
 
 @media (max-width: 1024px){

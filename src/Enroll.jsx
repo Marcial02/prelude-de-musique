@@ -1,3 +1,6 @@
+import './css/enroll.css'
+import { HashLink } from 'react-router-hash-link';
+
 function Enroll(){
     return(
         <section id="enroll" className="enroll-section">
@@ -5,25 +8,46 @@ function Enroll(){
                 <div className="banner"></div>
                 <h1>Enroll Now</h1>
             </div>
+                <div className='branch-text'>
+                 <p>We cater face-to-face, online music lesson and home service. Please choose which enrollment form you wish to proceed. Please fill up the form only when your decided to proceed with enrolling with Prelude de Musique.</p>
+            </div>
             <div className="branch-container">
+               
                 <div className="branch-item">
-                <img width={200} height={100} src="" alt="" />
+                    <h2>Imus Branch</h2>
+                <HashLink to=""><img  src="" alt="" /></HashLink>
                 </div> 
                 <div className="branch-item">
-                <img width={200} height={100} src="" alt="" />
+                    <h2>Bacoor Branch</h2>
+                <HashLink to="/Bacoor/#bacoor"><img  src="" alt="" /></HashLink>
                 </div>
                  <div className="branch-item">
-                  <img width={200} height={100} src="" alt="" />
+                    <h2>Kawit Branch</h2>
+                  <img  src="" alt="" />
                 </div>
                  <div className="branch-item">
-                <img width={200} height={100} src="" alt="" />
+                    <h2>Damariñas Branch</h2>
+                <img  src="" alt="" />
                 </div>
                  <div className="branch-item">
-                  <img width={200} height={100} src="" alt="" />
+                    <h2>Online</h2>
+                  <img  src="" alt="" />
                 </div>
                  <div className="branch-item">
-                  <img width={200} height={100} src="" alt="" />
+                    <h2>Home Service</h2>
+                  <img  src="" alt="" />
                 </div>
+            </div>
+            <div className='branch-text'>
+        
+        <p><ol>
+        <p>Enrollment Process:</p>
+        <li>Choose which instrument you would like to enroll in.</li>
+        <li>Message us on our Facebook Page to see the available schedule of your selected teacher.</li>
+        <li>Once you have selected the teacher and schedule that fits you, please fill up one of the enrollment form below.</li>
+        <li>After filling up the enrollment form, please let us know by sending a message on our facebook page.</li>
+    <li>Please send screenshot of payment on our facebook page.</li>
+    </ol></p>
             </div>
 
         </section>

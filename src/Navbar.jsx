@@ -72,7 +72,7 @@ function Navbar() {
       <li
        onMouseEnter={() => setActiveMenu('enroll')} 
             onMouseLeave={() => setActiveMenu(null)}>
-              <Link to="/Enroll">Enroll Now ▾</Link>
+              <HashLink to="/Enroll/#enroll">Enroll Now ▾</HashLink>
          {activeMenu === 'enroll' && (
               <ul className='dropdown-menu'>
                  <li><a href="">Kawit Branch</a></li>

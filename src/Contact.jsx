@@ -16,8 +16,8 @@ function Contact (){
                         09171257336 / 09778324495</p>
                 </div>
                 <div className='contact-card-s'>
-                    <img src={iconImage.iconEmail} alt="" />
-                    <p>preludedemusique@gmail.com</p>
+                    <a href="mailto:preludedemusique@gmail.com"><img src={iconImage.iconEmail} alt="" /></a>
+                     <a href="mailto:preludedemusique@gmail.com"><p>preludedemusique@gmail.com</p></a>
                 </div>
                  <div className='contact-card-s'>
                     <a href="https://www.facebook.com/preludedemusique"><img src={iconImage.iconFB} alt="" /></a>
