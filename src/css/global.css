@@ -22,6 +22,18 @@ body, HTML{
 input, button, textarea, select {
     font-family: "Montserrat", sans-serif;
 }
+.banner{
+    background-image: url(images/banner-piano2.jpg);
+    height: 250px;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    object-fit: cover;
+    position: absolute;
+    z-index: -1;
+    top: 0;
+    filter: brightness(50%);
+}
 
 @media (max-width: 1024px){
     h1{

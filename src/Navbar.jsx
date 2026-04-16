@@ -48,7 +48,7 @@ function Navbar() {
     <div className={`nav-div nav-menu ${isOpen ? "is-active" : ""} ${scrolled ? 'scrolled' : ''}`}> 
     <ul className=''>
       <li><HashLink to ="/#hero">Home</HashLink></li>
-      <li><HashLink to ="/About">About</HashLink></li>
+      <li><HashLink to ="/About/#about">About</HashLink></li>
       <li
        onMouseEnter={() => setActiveMenu('courses')} 
             onMouseLeave={() => setActiveMenu(null)}>

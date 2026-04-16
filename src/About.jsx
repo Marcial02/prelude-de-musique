@@ -2,8 +2,9 @@ import './css/about.css'
 
 function About (){
     return(
-        <section className='about-section'>
+        <section id='about' className='about-section'>
             <div className='header-container'>
+            <div className='banner'></div>
             <h1>About | School Policy</h1>
             </div>
             

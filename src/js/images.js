@@ -62,6 +62,9 @@ import branchImus from '/images/branch-imus.png'
 import branchBacoor from '/images/branch-bacoor.png'
 import branchKawit from '/images/branch-kawit.png'
 
+import bannerPiano1 from '/images/banner-piano1.jpg'
+import bannerPiano2 from '/images/banner-piano2.jpg'
+
 export const heroImage = {
  hero1, hero2, hero3, hero4, hero5, hero6
 };
@@ -86,4 +89,8 @@ export const iconImage = {
 
 export const branchImage = {
     branchImus, branchBacoor, branchKawit
+}
+
+export const bannerImage = {
+    bannerPiano1, bannerPiano2
 }

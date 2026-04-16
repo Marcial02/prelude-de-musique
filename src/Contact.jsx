@@ -20,30 +20,30 @@ function Contact (){
                     <p>preludedemusique@gmail.com</p>
                 </div>
                  <div className='contact-card-s'>
-                    <img src={iconImage.iconFB} alt="" />
-                    <p><a href="https://www.facebook.com/preludedemusique">fb.com/preludedemusique</a></p>
+                    <a href="https://www.facebook.com/preludedemusique"><img src={iconImage.iconFB} alt="" /></a>
+                    <p><a href="https://www.facebook.com/preludedemusique">preludedemusique</a></p>
                 </div>
                 <div className='contact-card-s'>
-                    <img src={iconImage.iconYT} alt="" />
-                    <p><a href="https://www.youtube.com/@preludedemusique">fb.com/preludedemusique</a></p>
+                    <a href="https://www.youtube.com/@preludedemusique"><img src={iconImage.iconYT} alt="" /></a>
+                    <p><a href="https://www.youtube.com/@preludedemusique">@preludedemusique</a></p>
                 </div>
                 </div>
                 
                  <div className='contact-container-m'>
                 <div className='contact-card-m'>
-                    <img src={branchImage.branchImus} alt="" />
+                    <a href=""><img src={branchImage.branchImus} alt="" /></a>
                     <h2>Imus Branch</h2>
                     <p>2nd Floor A.V. Lim Property Leasing, # 9073 Gen. Aguinaldo Highway Anabu 2D ,Imus Cavite  
 Landmark: Bristol Motorcycle / Infront of International British Academy</p>
                 </div>
                 <div className='contact-card-m'>
-                    <img src={branchImage.branchBacoor} alt="" />
+                    <a href=""><img src={branchImage.branchBacoor} alt="" /></a>
                     <h2>Bacoor Branch</h2>
                     <p>2nd Floor, JUMPH Building molino rd. cor Macaria Ave. , Molino 2 Bacoor Cavite
 Landmark: Infront of Mcdonald</p>
                 </div>
                 <div className='contact-card-m'>
-                    <img src={branchImage.branchKawit} alt="" />
+                    <a href=""><img src={branchImage.branchKawit} alt="" /></a>
                     <h2>Kawit Branch</h2>
                     <p>Rhd Commercial Stall, Kalayaan Road  Brgy. San Sebastian , Kawit Cavite
 Landmark: Total Gas Station / Near Lancaster New City</p>
