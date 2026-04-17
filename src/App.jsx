@@ -13,6 +13,7 @@ import Kawit from './SubPages/KawitBranch.jsx'
 import Dasmariñas from './SubPages/DasmariñasBranch.jsx'
 import Online from './SubPages/Online.jsx'
 import HomeService from './SubPages/HomeService.jsx'
+import Recitals from './Recitals.jsx'
 import "@fontsource/montserrat"; // Defaults to weight 400
 import "@fontsource/montserrat/700.css"; // bold links/headers
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
@@ -30,6 +31,8 @@ function App() {
       <Route path="about" element={<About />} />
       <Route path="price" element={<Price />} />
       <Route path="enroll" element={<Enroll />} />
+      <Route path="recitals" element={<Recitals />} />
+
 
       <Route path="bacoor" element={<Bacoor />} />
       <Route path="imus" element={<Imus />} />

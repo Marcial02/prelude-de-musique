@@ -95,6 +95,7 @@ function Navbar() {
                 <li><HashLink smooth to="/enroll#enroll">Prices</HashLink></li>
                 <li><HashLink smooth to="/about/#about">School Policy</HashLink></li>
                 <li><HashLink smooth to="/recitals/#recitals">Recitals</HashLink></li>
+                <li><HashLink smooth to={`${basePath}#feature`}>Feature</HashLink></li>
               </ul>
             )}
             </li>

@@ -50,6 +50,13 @@
     padding: 20px;
    
 }
-.section-feature h3{
-    padding: 20px 0 0 0;
+.section-feature h4{
+    font-size: medium;
+    text-align: center;
 }
+.section-feature h3{
+    text-align: center;
+    padding: 20px 0 0 0;
+
+}
+

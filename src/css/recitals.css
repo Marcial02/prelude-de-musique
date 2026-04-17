@@ -1,0 +1,36 @@
+.recitals-gallery{
+    display: flex;
+    flex-wrap: wrap;
+    width: 80%;
+    justify-content: center;
+    align-items: baseline;
+}
+.recitals-gallery a{
+    color: white;
+    text-decoration: none;
+    width: 300px;
+    height: 150px;
+    border: solid;
+    font-size: x-large;
+    font-weight:700;
+    text-align: center;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+
+}
+.recitals-gallery a p{
+    font-size: medium;
+    font-weight: 500
+}
+.gallery{
+    display: flex;
+    flex-wrap: wrap;
+    width: 80%;
+    justify-content: center;
+    align-items: baseline;
+}
+.gallery-items img{
+    width: 200px;
+    height: 200px;
+}

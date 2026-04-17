@@ -1,7 +1,7 @@
 import './css/feature.css'
 function Feature(){
     return(
-        <section className='section-feature'>
+        <section id='feature' className='section-feature'>
             {/* <div className='header'>
             <div className='banner'></div>
             <h1>About | School Policy</h1>
@@ -36,11 +36,12 @@ function Feature(){
 
                 <div className='page-row-container'>
                      <div className='title'>
-                    <h3>Build Confidence</h3>
+                    <h3>Piano Competition</h3>
                     </div>
                     <div className='item-container'>
                         <img src="" alt="" />
-                        <h3>PTGPFI Piano Competition with the themes ETUDES and FILIPINO WORKS. Preludee Zak Gabrielle Arellano Triumphs with 2nd Place(Highest) Catergory A2 - FILIPINO WORKS COMPETITION</h3>
+                        <h3>Preludee Zak Gabrielle Arellano Triumphs with 2nd Place(Highest) Catergory A2 - FILIPINO WORKS COMPETITION</h3>
+                        <h4>PTGPFI Piano Competition with the themes ETUDES and FILIPINO WORKS.</h4>
                     <p>On April 21, 2024, the Piano Teachers' Guild of the Philippines Foundation, Inc. (PTGPFI) hosted its prestigious Winners Concert. Under the tutelage of teacher Laurice Anne Caronan Among the celebrated performers was our very own Preludee Zak Gabrielle Arellano, a remarkable 7-year-old who achieved the 2nd place in the highly competitive A2 Filipino Works Category.</p>
                     <p>Zak's triumph is a testament to his perseverance, discipline, and unwavering love for Filipino music. Despite his tender age, he exhibited an exceptional level of skill and a profound understanding of the traditional instruments he played. The panel of judges was not only impressed by his technical proficiency but also by the depth of his artistry. They recognized that his performances were not merely note-perfect executions but soulful expressions of his connection to the music.</p>
                     <p>The PTGPFI Winners Concert showcased the extraordinary talents of young musicians from across the country, including those from the heart of Manila. Zak's achievement is particularly significant as he proudly represented Cavite, proving that musical excellence can be found beyond the urban centers.</p>
