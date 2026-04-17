@@ -1,4 +1,4 @@
-import '/src/css/price1.css'
+import '/src/css/price.css'
 
 function Price1(){
     return(

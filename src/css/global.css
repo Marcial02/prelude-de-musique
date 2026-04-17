@@ -46,6 +46,8 @@ input, button, textarea, select {
 }
 .section{
     position: relative;
+     background-color: #111;
+     color: white;
 }
 .gform {
     width: 500px;
@@ -59,10 +61,15 @@ input, button, textarea, select {
 .column-container{
     display: flex;
     padding: 0 5%;
+    justify-content: center;
 }
 .intro-text{
-    padding: 20px 10%;
+    padding: 50px 10%;
+    gap: 10px;
+    flex-direction: column;
+    display: flex;
 }
+
 @media (max-width: 1024px){
     h1{
         font-size: 30px !important;

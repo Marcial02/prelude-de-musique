@@ -49,16 +49,7 @@ Our vision is to be recognized as the leading music school in Cavite area produc
             </ol>
             </div>
 
-
-          
-
-            </div>
-
-
-            <div className='policy-container'>
-                  
-            
-            <div className='second-column'>
+             <div className='second-column'>
                 <h2>Payment Policy</h2>
             <ol>
                 <li>All payments are non-refundable.</li>
@@ -68,6 +59,17 @@ Our vision is to be recognized as the leading music school in Cavite area produc
                 <li>Once enrolled, Start date would already be implemented and attendance policy would apply.</li>
             </ol>
             </div>
+
+
+          
+
+            </div>
+
+
+            <div className='policy-container'>
+                  
+            
+           
             <div className='third-column'>
                 <h2>Terms and Condition</h2>
                 <ol>
@@ -100,6 +102,7 @@ Our vision is to be recognized as the leading music school in Cavite area produc
 The learning is the same as having a face to face class, but it is virtually. camera's would be focus on the musical instrument w/ hand gesture of the students.
 We provide proper instructions, so students can easily follow the instruction.</p></li>
                     <li><h3>My son/daugther has zero knowledge, can he/she learn? </h3><p>Yes, We accept beginners to advance students.</p></li>
+                    <li><h3>Are the teachers qualified? </h3><p>Yes, all our music teachers are music graduates.</p></li>
                     <li><h3>How to Enroll?</h3><p>Enrollment Process:</p>
                     <ol>
                         <li>Choose which instrument you would like to enroll in.</li>
@@ -109,7 +112,6 @@ We provide proper instructions, so students can easily follow the instruction.</
                         <li>Please send screenshot of payment on our facebook page.</li>
                         </ol>
                         </li>
-                    <li><h3>Are the teachers qualified? </h3><p>Yes, all our music teachers are music graduates.</p></li>
                 </ul>          
             </div>
             

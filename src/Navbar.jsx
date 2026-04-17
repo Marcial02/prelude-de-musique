@@ -87,14 +87,14 @@ function Navbar() {
       <li
        onMouseEnter={() => setActiveMenu('more')} 
             onMouseLeave={() => setActiveMenu(null)}>
-              <a className='more'>More ▾</a>
+              <HashLink to="/" className='more'>More ▾</HashLink>
          {activeMenu === 'more' && (
               <ul className='dropdown-menu'>
                 <li><HashLink smooth to={`${basePath}#teachers`}>Teachers</HashLink></li>
                 <li><HashLink smooth to={`${basePath}#testimonials`}>Testimonials</HashLink></li>
-                <li><HashLink smooth to="/Enroll#enroll">Prices</HashLink></li>
-                <li><a href="">School Policy</a></li>
-                <li><a href="">Recitals</a></li>
+                <li><HashLink smooth to="/enroll#enroll">Prices</HashLink></li>
+                <li><HashLink smooth to="/about/#about">School Policy</HashLink></li>
+                <li><HashLink smooth to="/recitals/#recitals">Recitals</HashLink></li>
               </ul>
             )}
             </li>

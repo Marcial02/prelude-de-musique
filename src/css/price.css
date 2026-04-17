@@ -14,11 +14,15 @@
     flex-wrap: wrap;
 
 
-
 }
 .price-list-item{
     padding: 10px;
     border: solid;
     width: 200px;
+    align-items: center;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    flex-direction: column;
   
 }
