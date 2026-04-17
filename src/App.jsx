@@ -14,6 +14,7 @@ import Dasmariñas from './SubPages/DasmariñasBranch.jsx'
 import Online from './SubPages/Online.jsx'
 import HomeService from './SubPages/HomeService.jsx'
 import Recitals from './Recitals.jsx'
+import Recitals1 from './SubPages/Recitals1.jsx'
 import "@fontsource/montserrat"; // Defaults to weight 400
 import "@fontsource/montserrat/700.css"; // bold links/headers
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
