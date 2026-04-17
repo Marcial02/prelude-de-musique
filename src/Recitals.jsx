@@ -11,23 +11,23 @@ function Recitals(){
             </div>
             <div className='page-container'>
             <div className='recitals-gallery'>
-                <HashLink to ="/">8th Musical Recital
+                <HashLink to ="/recitals#r8">8th Musical Recital
           <p>December 18, 2022 at Manila Pianos Inc.</p></HashLink>
-          <HashLink to ="/">9th Musical Recital
+          <HashLink to ="/recitals#r9">9th Musical Recital
           <p>February 19, 2023 at Manila Pianos Inc.</p></HashLink>
-          <HashLink to ="/">10th Musical Recital
+          <HashLink to ="/recitals#r10">10th Musical Recital
           <p>August 13, 2023 at Manila Pianos Inc.</p></HashLink>
-          <HashLink to ="/">11th Musical Recital
+          <HashLink to ="/recitals#r11">11th Musical Recital
           <p>December 17, 2023 at Sunshine Place, Makati</p></HashLink>
-          <HashLink to ="/">12th Musical Recital
+          <HashLink to ="/recitals#r12">12th Musical Recital
           <p>July 07, 2024 at Antel Grand Village, Clubhouse</p></HashLink>
-          <HashLink to ="/">1st Mall Culminating Activity
+          <HashLink to ="/recitals#rm1">1st Mall Culminating Activity
           <p>August 18, 2024 at CityMall Anabu, Imus</p></HashLink>
-          <HashLink to ="/">13th Musical Recital
+          <HashLink to ="/recitals#r13">13th Musical Recital
           <p>December 15, 2024 at PETA Theater, Quezon City</p></HashLink>
-          <HashLink to ="/">14th Musical Recital
+          <HashLink to ="/recitals#r14">14th Musical Recital
           <p>July 5, 2025 at De La Salle University - Dasmariñas, Tanghalang Julian Felipe</p></HashLink>
-          <HashLink to ="/">15th Musical Recital
+          <HashLink to ="/recitals#r15">15th Musical Recital
           <p>December 7, 2025 at Founder's Hall, St. Paul Manila University</p></HashLink>
             </div>
 
