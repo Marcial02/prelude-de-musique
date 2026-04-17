@@ -39,4 +39,11 @@
     text-align: center;
     display: flex;
     flex-direction: column;
+    justify-content: center;
+}
+.section-recital{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
