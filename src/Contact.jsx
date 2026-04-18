@@ -31,25 +31,25 @@ function Contact (){
                 
                  <div className='contact-container-m'>
                 <div className='contact-card-m'>
-                    <a href=""><img src={branchImage.branchImus} alt="" /></a>
+                    <a target='_blank' href="https://maps.app.goo.gl/fh6z5UCfsx9yLSz38"><img src={branchImage.branchImus} alt="" /></a>
                     <h2>Imus Branch</h2>
                     <p>2nd Floor A.V. Lim Property Leasing, # 9073 Gen. Aguinaldo Highway Anabu 2D ,Imus Cavite  
 Landmark: Bristol Motorcycle / Infront of International British Academy</p>
                 </div>
                 <div className='contact-card-m'>
-                    <a href=""><img src={branchImage.branchBacoor} alt="" /></a>
+                    <a target='_blank' href="https://maps.app.goo.gl/4Z7BmLU8rYkfLSfW7"><img src={branchImage.branchBacoor} alt="" /></a>
                     <h2>Bacoor Branch</h2>
                     <p>2nd Floor, JUMPH Building molino rd. cor Macaria Ave. , Molino 2 Bacoor Cavite
 Landmark: Infront of Mcdonald</p>
                 </div>
                 <div className='contact-card-m'>
-                    <a href=""><img src={branchImage.branchKawit} alt="" /></a>
+                    <a target='_blank' href="https://maps.app.goo.gl/i3aYmJSoQxFDRrFs5"><img src={branchImage.branchKawit} alt="" /></a>
                     <h2>Kawit Branch</h2>
                     <p>Rhd Commercial Stall, Kalayaan Road  Brgy. San Sebastian , Kawit Cavite
 Landmark: Total Gas Station / Near Lancaster New City</p>
                 </div>
                 <div className='contact-card-m'>
-                    <a href="https://maps.app.goo.gl/UbqnTsEjjTDifkbq8"><img src={branchImage.branchDasma} alt="" /></a>
+                    <a target='_blank' href="https://maps.app.goo.gl/UbqnTsEjjTDifkbq8"><img src={branchImage.branchDasma} alt="" /></a>
                     <h2>Dasmariñas Branch</h2>
                     <p>Block 9 Lot 19 Brgy, 1-K Fatima Rd, Dasmariñas, 4115 Cavite</p>
                 </div>
