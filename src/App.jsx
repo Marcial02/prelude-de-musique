@@ -15,6 +15,7 @@ import Online from './SubPages/Online.jsx'
 import HomeService from './SubPages/HomeService.jsx'
 import Recitals from './Recitals.jsx'
 import Recitals1 from './SubPages/Recitals1.jsx'
+import Lessons from './Lessons.jsx'
 import "@fontsource/montserrat"; // Defaults to weight 400
 import "@fontsource/montserrat/700.css"; // bold links/headers
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
@@ -33,6 +34,7 @@ function App() {
       <Route path="price" element={<Price />} />
       <Route path="enroll" element={<Enroll />} />
       <Route path="recitals" element={<Recitals />} />
+      <Route path="lessons" element={<Lessons />} />
 
 
       <Route path="bacoor" element={<Bacoor />} />

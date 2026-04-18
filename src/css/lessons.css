@@ -1,0 +1,32 @@
+.instrument-img img{
+    height: 400px;
+    width: 400px;
+    object-fit: cover;
+    object-position: top;
+}
+.instrument-img{
+
+    padding: 10px;
+    display: flex;
+    align-items: center;
+
+}
+.instrument-text{
+    width: 40%;
+    padding: 10px;
+    gap: 10px;
+    display: flex;
+    flex-direction: column;
+}
+.page-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.instrument-container{
+    padding: auto;
+    display: flex;
+
+    justify-content: center;
+}

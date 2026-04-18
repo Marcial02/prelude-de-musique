@@ -1,4 +1,5 @@
 import './css/feature.css'
+import { featureImage } from './js/images.js'
 function Feature(){
     return(
         <section id='feature' className='section-feature'>
@@ -15,7 +16,7 @@ function Feature(){
                     <h3>Build Confidence</h3>
                     </div>
                     <div className='item-container'>
-                        <img src="" alt="" />
+                        <img src={featureImage.f2} alt="" />
                         <p>It's not uncommon to freeze on a stage. Weak knees, a churning stomach, a dizzy feeling- these are all common symptoms of anxiety that our students feel before performing in front of others. But guess what, all our performer-students have overcome it, and our teachers will teach you how.</p>
                     </div>
                     </div>
@@ -25,7 +26,7 @@ function Feature(){
                     <h3>Performance Opportunities</h3>
                     </div>
                     <div className='item-container'>
-                        <img src="" alt="" />
+                        <img src={featureImage.f1} alt="" />
                         <p>One of the most exciting aspects of studying at PDEM is getting to perform in front of a live audience.</p>
                         <p>This opportunity comes 3 times a year with our yearly concert series. Our concert series is most anticipated by parents and students and you can feel the excitement while students are preparing for the event.</p>
                         <p>The best part is the fulfillment of everyone's aspirations after the performances.</p>
@@ -39,7 +40,7 @@ function Feature(){
                     <h3>Piano Competition</h3>
                     </div>
                     <div className='item-container'>
-                        <img src="" alt="" />
+                        <img src={featureImage.f3} alt="" />
                         <h3>Preludee Zak Gabrielle Arellano Triumphs with 2nd Place(Highest) Catergory A2 - FILIPINO WORKS COMPETITION</h3>
                         <h4>PTGPFI Piano Competition with the themes ETUDES and FILIPINO WORKS.</h4>
                     <p>On April 21, 2024, the Piano Teachers' Guild of the Philippines Foundation, Inc. (PTGPFI) hosted its prestigious Winners Concert. Under the tutelage of teacher Laurice Anne Caronan Among the celebrated performers was our very own Preludee Zak Gabrielle Arellano, a remarkable 7-year-old who achieved the 2nd place in the highly competitive A2 Filipino Works Category.</p>

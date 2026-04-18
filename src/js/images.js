@@ -65,6 +65,10 @@ import branchKawit from '/images/branch-kawit.png'
 import bannerPiano1 from '/images/banner-piano1.jpg'
 import bannerPiano2 from '/images/banner-piano2.jpg'
 
+import f1 from '/images/f1.png'
+import f2 from '/images/f2.png'
+import f3 from '/images/f3.png'
+
 export const heroImage = {
  hero1, hero2, hero3, hero4, hero5, hero6
 };
@@ -93,4 +97,8 @@ export const branchImage = {
 
 export const bannerImage = {
     bannerPiano1, bannerPiano2
+}
+
+export const featureImage = {
+    f1, f2, f3
 }

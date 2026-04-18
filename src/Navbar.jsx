@@ -55,17 +55,17 @@ function Navbar() {
               <HashLink smooth to={`${basePath}#courses`}>Courses Offered ▾</HashLink>
          {activeMenu === 'courses' && (
               <ul className='dropdown-menu'>
-                <li><a href="">Piano Lesson</a></li>
-                <li><a href="">Voice Lesson</a></li>
-                <li><a href="">Violin Lesson</a></li>
-                <li><a href="">Viola Lesson</a></li>
-                <li><a href="">Guitar Lesson</a></li>
-                <li><a href="">Ukelele Lesson</a></li>
-                <li><a href="">Flute Lesson</a></li>
-                <li><a href="">Saxophone Lesson</a></li>
-                <li><a href="">Recorder Lesson</a></li>
-                <li><a href="">Drum Lesson</a></li>
-                <li><a href="">Trumpet Lesson</a></li>
+                <li><HashLink to="/lessons#piano">Piano Lesson</HashLink></li>
+                <li><HashLink to="/lessons#voice">Voice Lesson</HashLink></li>
+                <li><HashLink to="/lessons#violin">Violin Lesson</HashLink></li>
+                <li><HashLink to="/lessons#viola">Viola Lesson</HashLink></li>
+                <li><HashLink to="/lessons#guitar">Guitar Lesson</HashLink></li>
+                <li><HashLink to="/lessons#ukelele">Ukelele Lesson</HashLink></li>
+                <li><HashLink to="/lessons#flute">Flute Lesson</HashLink></li>
+                <li><HashLink to="/lessons#saxophone">Saxophone Lesson</HashLink></li>
+                <li><HashLink to="/lessons#recorder">Recorder Lesson</HashLink></li>
+                <li><HashLink to="/lessons#drum">Drum Lesson</HashLink></li>
+                <li><HashLink to="/lessons#trumpet">Trumpet Lesson</HashLink></li>
               </ul>
             )}
             </li>
