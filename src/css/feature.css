@@ -19,12 +19,13 @@
     padding: 100px 0;
 
 }
-.page-container{
+.feature-page-container{
     display: flex;
     justify-content: center;
     gap: 0;
     padding: 0;
     width: 100%;
+    gap: 10px;
 }
 .page-row-container{
     display: flex;
@@ -64,11 +65,7 @@
 .section-feature img{
     height: 250px;
 }
-.page-container{
-    display: flex;
-    flex-direction: column;
-    gap: 10px;
-}
+
 .instrument-container{
     display: flex;
     flex-direction: row;

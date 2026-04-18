@@ -26,9 +26,10 @@
    text-align: center;
     width: auto;
     gap: 20px;
+    padding: 20px;
     
 }
 .branch-item img{
     height: 200px;
-    width: 400px;
+    width: 600px;
 }

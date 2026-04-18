@@ -48,6 +48,11 @@ Landmark: Infront of Mcdonald</p>
                     <p>Rhd Commercial Stall, Kalayaan Road  Brgy. San Sebastian , Kawit Cavite
 Landmark: Total Gas Station / Near Lancaster New City</p>
                 </div>
+                <div className='contact-card-m'>
+                    <a href="https://maps.app.goo.gl/UbqnTsEjjTDifkbq8"><img src={branchImage.branchDasma} alt="" /></a>
+                    <h2>Dasmariñas Branch</h2>
+                    <p>Block 9 Lot 19 Brgy, 1-K Fatima Rd, Dasmariñas, 4115 Cavite</p>
+                </div>
             </div>
 
         </section>

@@ -61,6 +61,7 @@ import iconYT from '/images/icon-yt.png'
 import branchImus from '/images/branch-imus.png'
 import branchBacoor from '/images/branch-bacoor.png'
 import branchKawit from '/images/branch-kawit.png'
+import branchDasma from '/images/branch-dasma.png'
 
 import bannerPiano1 from '/images/banner-piano1.jpg'
 import bannerPiano2 from '/images/banner-piano2.jpg'
@@ -68,6 +69,9 @@ import bannerPiano2 from '/images/banner-piano2.jpg'
 import f1 from '/images/f1.png'
 import f2 from '/images/f2.png'
 import f3 from '/images/f3.png'
+
+import pdem1 from '/images/PDEM.png'
+import pdem2 from '/images/PDEM Logo.jpg'
 
 export const heroImage = {
  hero1, hero2, hero3, hero4, hero5, hero6
@@ -92,7 +96,7 @@ export const iconImage = {
 }
 
 export const branchImage = {
-    branchImus, branchBacoor, branchKawit
+    branchImus, branchBacoor, branchKawit, branchDasma
 }
 
 export const bannerImage = {
@@ -101,4 +105,8 @@ export const bannerImage = {
 
 export const featureImage = {
     f1, f2, f3
+}
+
+export const logoImage = {
+    pdem1, pdem2
 }
