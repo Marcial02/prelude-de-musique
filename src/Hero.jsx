@@ -1,6 +1,8 @@
 import { useState, useEffect } from 'react'
 import './css/hero.css'
 import {heroImage} from './js/images.js'
+import { Link } from 'react-router-dom';
+import { HashLink } from 'react-router-hash-link';
 
 function Hero(){
 
@@ -38,7 +40,7 @@ function Hero(){
         <h1 className="hero-tagline">One-On-One Music Lessons</h1>
         <h2 className='hero-tagline-sub'>in Almost Any Age</h2>
         <p className="hero-pitch">Take part of over 100 plus students who actively take music classes from our four branches: Kawit, Imus, Bacoor and Dasmariñas. Piano, Voice, Violin, Viola, Guitar, Ukulele, Flute, Recorder, Saxophone, Trumpet and Drums. </p>
-        <button className="hero-button">Get Started</button>
+        <HashLink to="/enroll#enroll" className="hero-button">Enroll Now</HashLink>
       </div>
     </section>
    ) 

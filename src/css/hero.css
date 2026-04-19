@@ -76,6 +76,7 @@
   cursor: pointer;
   transition: transform 0.2s;
   z-index: 1;
+  text-decoration: none;
 }
 
 .hero-button:hover {
