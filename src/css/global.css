@@ -3,6 +3,7 @@ body, HTML{
     padding: 0;
     box-sizing: border-box;
     scroll-behavior: smooth;
+    overflow-x: hidden
 }
 
 /* Import weights 400 (regular) at 700 (bold) */
