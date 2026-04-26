@@ -18,7 +18,7 @@ function Footer(){
                     <li><HashLink to='/Enroll#enroll'>Enroll</HashLink></li>
                     <li><HashLink to='#contact'>Contact</HashLink></li>
                 </ul>
-                <a className='keonite' href="https://keonite.com" target='_blank'>© Keonite.com</a>
+                <a className='keonite' href="https://keonite.com" target='_blank'>© 2026 Prelude de Musique | Powered by keonite.com</a>
 
             </div>
 
